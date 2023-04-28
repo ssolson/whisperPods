@@ -67,3 +67,4 @@ if __name__ == "__main__":
     transcript = whisper_podcast(df.iloc[0].filename)
 
     import ipdb; ipdb.set_trace()
+    print(transcript['text'])
