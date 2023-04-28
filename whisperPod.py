@@ -18,9 +18,6 @@ def whisper_podcast(filename):
 
     model = whisper.load_model("medium.en")
     return model.transcribe(filename, fp16=False, language='English')
-    
-
-
 
 if __name__ == "__main__":
 
