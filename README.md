@@ -35,6 +35,12 @@ Should return
 > libswresample 4. 11.100 / 4. 11.100
 > libpostproc 57. 2.100 / 57. 2.100
 
+Finally you can install this package by running
+
+```
+pip install -e .
+```
+
 Cool now you can run
 
 ```
