@@ -16,7 +16,8 @@ def find_mp3_files(path):
 
 def whisper_podcast(filename):
 
-    model = whisper.load_model("medium.en")
+    model = whisper.load_model("tiny.en")
+    # model = whisper.load_model("medium.en")
     return model.transcribe(filename, fp16=False, language='English', verbose=True)
 
 if __name__ == "__main__":
