@@ -7,7 +7,7 @@ import pandas as pd
 from whisperPod.mongo import db
 
 # Replace 'your_database' with the name of your database and 'your_collection' with the name of your collection
-client = db.get_client();
+client = db.get_client()
 # db = client.your_database
 # collection = db.your_collection
 
