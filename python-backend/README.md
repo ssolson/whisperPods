@@ -1,9 +1,3 @@
-Install getPodcast (https://gitlab.com/fholmer/getpodcast) :
-
-```
-pip install getpodcast
-```
-
 Install whisper
 
 ```
@@ -38,21 +32,14 @@ Should return
 Finally you can install this package by running
 
 ```
+cd python-backend
 pip install -e .
 ```
 
 Cool now you can run
 
 ```
- python getPod.py  --run
+python scripts/theDailyGwei.py --run
 ```
 
-WHich will request the hardcoded podcast
-
-Then pointing whisperPod.py to the correct file and running
-
-```
-python whisperPod.py
-```
-
-will print the transcript to screen.
+Which will request the podcast and print the transcript of a hardcoded episode to screen.

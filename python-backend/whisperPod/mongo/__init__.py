@@ -1,1 +1,1 @@
-from whisperPod.mongo import db
+from whisperpod.mongo import db

@@ -27,7 +27,7 @@ def find_mp3_files(path):
     -------
     >>> find_mp3_files("/path/to/music/library")
     ['/path/to/music/library/song1.mp3', '/path/to/music/library/album/song2.mp3']
-    """    
+    """
     mp3_files = []
 
     for root, _, filenames in os.walk(path):

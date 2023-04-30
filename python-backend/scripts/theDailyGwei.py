@@ -1,18 +1,28 @@
 import os
 import re
 import pandas as pd
-# from pymongo.mongo_client import MongoClient
-from whisperPod.mongo import db
-from whisperPod.utils import utils
+import whisperpod as wp
 
-# Replace 'your_database' with the name of your database and 'your_collection' with the name of your collection
-client = db.get_client()
+# Get the mogodb client
+client = wp.mongo.db.get_client()
+
+# Collection Name
+collection_name = "thedailygwei"
+# collection = client.thedailygwei
+
+# Get the latest podcasts
+wp.request.requestPod.get_podcast(
+    "https://thedailygwei.libsyn.com/rss" , 
+    "thedailygwei",
+    "2023-04-25",
+)
+
+
 # db = client.your_database
-# collection = db.your_collection
 
 
 folder_path = "podcast/thedailygwei/2023"
-mp3_files = utils.find_mp3_files(folder_path)
+mp3_files = wp.utils.utils.find_mp3_files(folder_path)
 
 data = {
     "Date": [],
@@ -52,9 +62,9 @@ for file_path in mp3_files:
 
     print(df)
 
-    import ipdb; ipdb.set_trace()
+import ipdb; ipdb.set_trace()
 
-    transcript = whisper_podcast(df.iloc[0].filename)
+transcript = wp.transcribe.transcribePod.whisper_podcast(df.iloc[0].filename)
 
-    import ipdb; ipdb.set_trace()
-    print(transcript['text'])
+import ipdb; ipdb.set_trace()
+print(transcript['text'])

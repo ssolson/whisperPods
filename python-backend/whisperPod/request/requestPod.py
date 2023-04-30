@@ -27,10 +27,3 @@ def get_podcast(url, name, start_at, path="./podcast"):
     podcasts = {name:  url}
 
     getpodcast.getpodcast(podcasts, opt)
-
-
-get_podcast(
-    "https://thedailygwei.libsyn.com/rss" , 
-    "thedailygwei",
-    "2023-04-24",
-)

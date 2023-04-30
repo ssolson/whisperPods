@@ -1,1 +1,1 @@
-from whisperPod.utils import utils
+from whisperpod.utils import utils

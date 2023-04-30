@@ -37,4 +37,15 @@ next-env.d.ts
 
 #python 
 *.egg-info
-python-backend/whisperPod/podcast/
+**/__pycache__/
+**/_build/
+**/build/
+**/dist/
+**/mhkit.egg-info/
+**/.ipynb_checkpoints
+**/tests/*.png
+**/workspace/data_peetz/
+**/workspace/data_mooring/
+**/workspace/data_GE/
+**/.vscode/
+python-backend/podcast/

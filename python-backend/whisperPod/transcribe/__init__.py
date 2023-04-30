@@ -1,1 +1,1 @@
-from whisperPod.transcribe import transcribePod
+from whisperpod.transcribe import transcribePod
