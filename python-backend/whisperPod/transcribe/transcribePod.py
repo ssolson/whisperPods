@@ -1,9 +1,16 @@
 import os
+import re
 import fnmatch
 import whisper
-import re
 import pandas as pd
-from pymongo import MongoClient
+# from pymongo.mongo_client import MongoClient
+from whisperPod.mongo import db
+
+# Replace 'your_database' with the name of your database and 'your_collection' with the name of your collection
+client = db.get_client();
+# db = client.your_database
+# collection = db.your_collection
+
 
 def find_mp3_files(path):
     mp3_files = []
