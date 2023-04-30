@@ -1,58 +1,38 @@
-Install getPodcast (https://gitlab.com/fholmer/getpodcast) :
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-```
-pip install getpodcast
-```
+## Getting Started
 
-Install whisper
+First, run the development server:
 
-```
-pip install -U openai-whisper
-```
-
-On windows you need to install ffmpeg follow this guide:
-https://phoenixnap.com/kb/ffmpeg-windows
-
-To check that installation worked:
-
-```
-ffmpeg -version
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
 
-Should return
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-> $ ffmpeg -version
-> ffmpeg version 2023-04-26-git-e3143703e9-full_build-www.gyan.dev Copyright (c) 2000-2023 the FFmpeg developers
-> built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
-> configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg
-> --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-d3d11va --enable-dxva2 --enable-libvpl --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint
-> libavutil 58. 6.100 / 58. 6.100
-> libavcodec 60. 10.100 / 60. 10.100
-> libavformat 60. 5.100 / 60. 5.100
-> libavdevice 60. 2.100 / 60. 2.100
-> libavfilter 9. 5.100 / 9. 5.100
-> libswscale 7. 2.100 / 7. 2.100
-> libswresample 4. 11.100 / 4. 11.100
-> libpostproc 57. 2.100 / 57. 2.100
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-Finally you can install this package by running
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-```
-pip install -e .
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Cool now you can run
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-```
- python getPod.py  --run
-```
+## Learn More
 
-WHich will request the hardcoded podcast
+To learn more about Next.js, take a look at the following resources:
 
-Then pointing whisperPod.py to the correct file and running
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```
-python whisperPod.py
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-will print the transcript to screen.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
