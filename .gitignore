@@ -37,4 +37,4 @@ next-env.d.ts
 
 #python 
 *.egg-info
-*/podcast/*
+python-backend/whisperPod/podcast/
