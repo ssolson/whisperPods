@@ -1,5 +1,5 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
-require("dotenv").config({ path: "./config.env" });
+require("dotenv").config({ path: "./mongo/config.env" });
 const uri = process.env.ATLAS_URI;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version

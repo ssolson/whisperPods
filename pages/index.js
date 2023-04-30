@@ -2,10 +2,33 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import { useEffect, useState } from "react";
+import DataTable from "./DataTable";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const res = await fetch("/api/data");
+        if (!res.ok) {
+          const error = await res.json();
+          throw new Error(error.error);
+        }
+        const data = await res.json();
+        console.log("Data fetched:", data);
+        setData(data);
+      } catch (error) {
+        console.error("Error fetching data:", error.message);
+      }
+    }
+
+    fetchData();
+  }, []);
+
   return (
     <>
       <Head>
@@ -48,6 +71,15 @@ export default function Home() {
             height={37}
             priority
           />
+        </div>
+
+        <div>
+          <h1>Data from MongoDB Atlas:</h1>
+          <ul>
+            {data.map((item) => (
+              <li key={item._id}>{item["Episode Name"]}</li>
+            ))}
+          </ul>
         </div>
 
         <div className={styles.grid}>

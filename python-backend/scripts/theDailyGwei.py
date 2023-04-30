@@ -3,12 +3,12 @@ import re
 import pandas as pd
 import whisperpod as wp
 
-# Get the mogodb client
+# Get the mogodb client, and set the database, and collection
 client = wp.mongo.db.get_client()
-
-# Collection Name
+database_name = "whisperPods"
 collection_name = "thedailygwei"
-# collection = client.thedailygwei
+db = client[database_name]
+collection = db[collection_name]
 
 # Get the latest podcasts
 wp.request.requestPod.get_podcast(
@@ -17,9 +17,7 @@ wp.request.requestPod.get_podcast(
     "2023-04-25",
 )
 
-
-# db = client.your_database
-
+# TODO: Store mp3 to database?
 
 folder_path = "podcast/thedailygwei/2023"
 mp3_files = wp.utils.utils.find_mp3_files(folder_path)
@@ -62,9 +60,13 @@ for file_path in mp3_files:
 
     print(df)
 
-import ipdb; ipdb.set_trace()
+# import ipdb; ipdb.set_trace()
 
 transcript = wp.transcribe.transcribePod.whisper_podcast(df.iloc[0].filename)
 
 import ipdb; ipdb.set_trace()
+
+data['transcript'] = transcript
+post_id = collection.insert_one(data).inserted_id
+
 print(transcript['text'])
