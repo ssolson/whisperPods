@@ -12,7 +12,7 @@ const connectToDB = async () => {
 
   return {
     client,
-    db: client.db("your_database_name"),
+    db: client.db("whisperPods"),
   };
 };
 
