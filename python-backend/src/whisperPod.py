@@ -3,6 +3,7 @@ import fnmatch
 import whisper
 import re
 import pandas as pd
+from pymongo import MongoClient
 
 def find_mp3_files(path):
     mp3_files = []
