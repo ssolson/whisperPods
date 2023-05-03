@@ -35,3 +35,26 @@ def find_mp3_files(path):
             mp3_files.append(os.path.join(root, filename))
 
     return mp3_files
+
+
+def combine_metadata(podcast_metadata, yt_metadata):
+    combined_metadata = []
+    unmatched_metadata = []
+
+    for podcast_item in podcast_metadata:
+        matched = False
+        for yt_item in yt_metadata:
+            if podcast_item["item_title"] == yt_item["title"]:
+                combined_item = podcast_item.copy()
+
+                for key, value in yt_item.items():
+                    combined_item["yt_" + key] = value
+
+                combined_metadata.append(combined_item)
+                matched = True
+                break
+        
+        if not matched:
+            unmatched_metadata.append(podcast_item)
+
+    return combined_metadata, unmatched_metadata

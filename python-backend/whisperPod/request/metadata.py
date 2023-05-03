@@ -31,7 +31,7 @@ def scrape(base_url, output_file):
         last_page = 0
 
     page = last_page + 1
-
+    
     while True:
         request_url = f"{base_url}/page/{page}/render-type/json"
         response = requests.get(request_url)

@@ -1,8 +1,11 @@
 import os
 import re
+import json
 import pandas as pd
 import whisperpod as wp
 from dotenv import load_dotenv
+
+current_directory = os.getcwd() # Get the current working directory
 
 
 # Get the mogodb client, and set the database, and collection
@@ -14,16 +17,32 @@ collection = db[collection_name]
 
 # Get the libsyn podcast metadata
 base_url = 'https://thedailygwei.libsyn.com/'
-output_file = 'thedailygwei_metadata.json'
-all_episodes = wp.request.metadata.scrape(base_url, output_file)
-
+podcast_output_file = 'scripts/thedailygwei_metadata.json'
+podcast_outfile_absolute_path = os.path.join(current_directory, podcast_output_file)
+# all_episodes = wp.request.metadata.scrape(base_url, file_absolute_path)
+if os.path.exists(podcast_outfile_absolute_path):
+    with open(podcast_outfile_absolute_path, 'r') as f:
+        podcast_metadata = json.load(f)
 # Get the youtube video metadata
 load_dotenv()
 api_key = os.getenv('YOUTUBE_API')
 playlist_id = 'PLIMWH1uKd3oE905uSUHdE5hd6e2UpADak'
-output_file = 'thedailygwei_youtube_metadata.json'
+youtube_output_file = 'scripts/thedailygwei_youtube_metadata.json'
+youtube_outfile_absolute_path = os.path.join(current_directory, youtube_output_file)
 
-video_data_list = wp.request.youtube.fetch_metadata(playlist_id, output_file, api_key)
+# video_data_list = wp.request.youtube.fetch_metadata(playlist_id, file_absolute_path, api_key)
+if os.path.exists(youtube_outfile_absolute_path):
+    with open(youtube_outfile_absolute_path, 'r') as f:
+        youtube_metadata = json.load(f)
+
+
+combined_metadata, unmatched_metadata = wp.utils.utils.combine_metadata(
+    podcast_metadata, 
+    youtube_metadata
+    )
+print("\nUnmatched metadata:")
+print(unmatched_metadata)
+import ipdb; ipdb.set_trace()
 
 # # Get the latest podcasts
 # wp.request.requestPod.get_podcast(
