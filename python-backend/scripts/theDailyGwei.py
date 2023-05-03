@@ -2,6 +2,8 @@ import os
 import re
 import pandas as pd
 import whisperpod as wp
+from dotenv import load_dotenv
+
 
 # Get the mogodb client, and set the database, and collection
 client = wp.mongo.db.get_client()
@@ -10,10 +12,18 @@ collection_name = "thedailygwei"
 db = client[database_name]
 collection = db[collection_name]
 
-# Get the metadata
+# Get the libsyn podcast metadata
 base_url = 'https://thedailygwei.libsyn.com/'
 output_file = 'thedailygwei_metadata.json'
 all_episodes = wp.request.metadata.scrape(base_url, output_file)
+
+# Get the youtube video metadata
+load_dotenv()
+api_key = os.getenv('YOUTUBE_API')
+playlist_id = 'PLIMWH1uKd3oE905uSUHdE5hd6e2UpADak'
+output_file = 'thedailygwei_youtube_metadata.json'
+
+video_data_list = wp.request.youtube.fetch_metadata(playlist_id, output_file, api_key)
 
 # # Get the latest podcasts
 # wp.request.requestPod.get_podcast(
