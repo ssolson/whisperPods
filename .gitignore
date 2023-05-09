@@ -49,3 +49,4 @@ next-env.d.ts
 **/workspace/data_GE/
 **/.vscode/
 python-backend/podcast/
+**/playground/**

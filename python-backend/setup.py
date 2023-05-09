@@ -6,12 +6,15 @@ PACKAGES = find_packages()
 EXTENSIONS = []
 DESCRIPTION = 'Whisper to your pods'
 AUTHOR = 'sters'
+AUTHOR_EMAIL = 'you@example.com'
+MAINTAINER = 'you'
+MAINTAINER_EMAIL = 'you@example.com'
 LICENSE = 'Revised BSD'
 URL = ''
-CLASSIFIERS = ['development status :: 3 - Alpha',
-               'programming language :: Python :: 3',
-               'topic :: Entertainment/Podcasting',
-               'operating system :: OS Independent',
+CLASSIFIERS = ['Development Status :: 3 - Alpha',
+               'Programming Language :: Python :: 3',
+               'Topic :: Multimedia :: Sound/Audio :: Players',
+               'Operating System :: OS Independent',
                ]
 DEPENDENCIES = [
     "pandas",
@@ -36,7 +39,9 @@ setup(name=DISTNAME,
       description=DESCRIPTION,
       long_description=LONG_DESCRIPTION,
       author=AUTHOR,
-      maintainer_email="",
+      author_email=AUTHOR_EMAIL,
+      maintainer=MAINTAINER,
+      maintainer_email=MAINTAINER_EMAIL,
       license=LICENSE,
       url=URL,
       classifiers=CLASSIFIERS,

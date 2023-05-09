@@ -19,11 +19,10 @@ def get_podcast(url, name, start_at, path="./podcast"):
     -------
     None
     """
-
+    podcasts = {name:  url}
     opt = getpodcast.options(
         date_from=start_at,
-        root_dir=path)
-
-    podcasts = {name:  url}
+        root_dir=path
+        )
 
     getpodcast.getpodcast(podcasts, opt)
