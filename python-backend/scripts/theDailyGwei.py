@@ -102,7 +102,7 @@ df_podcast = df_podcast.set_index('episode')
 df_youtube = pd.DataFrame(youtube_metadata)
 
 # Convert the publishedAt column to datetime
-df_youtube['release_date'] = pd.to_datetime(
+df_youtube['publishedAt'] = pd.to_datetime(
     df_youtube['publishedAt']
 )
 
@@ -136,6 +136,29 @@ for ep in youtube_missing:
 # Combine the dataframes
 combined_df = df_podcast.merge(
     df_youtube, left_index=True, right_index=True, suffixes=('_podcast', '_youtube'), how='outer')
+
+# Delete redundant or unneeded columns
+del combined_df['item_body_short']
+del combined_df['item_body']
+del combined_df['web_image_content_id']
+del combined_df['player']
+del combined_df['extra_content']
+del combined_df['display_download_link']
+del combined_df['premium_state']
+
+# Replace NaT values with None
+combined_df = combined_df.replace({pd.NaT: None})
+
+ipdb.set_trace()
+
+# Delete all existing documents in the collection
+collection.delete_many({})
+
+# Convert the combined_df DataFrame to a list of dictionaries
+data = combined_df.to_dict(orient='records')
+
+# Insert the list of dictionaries into the MongoDB collection
+collection.insert_many(data)
 
 
 ipdb.set_trace()
