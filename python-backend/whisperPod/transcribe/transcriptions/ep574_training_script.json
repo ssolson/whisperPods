@@ -1,0 +1,3045 @@
+{
+  "0": {
+    "start": "0.000",
+    "end": "4.080",
+    "text": " Hello everyone, welcome to another episode of the Daily Gwei Refuel, where we recap the latest news in the ETHereum ecosystem."
+  },
+  "1": {
+    "start": "4.380",
+    "end": "7.160",
+    "text": " I'm your host, Anthony Sassano and this is the 26th of April 2023."
+  },
+  "2": {
+    "start": "7.900",
+    "end": "9.560",
+    "text": " Alright everyone, let's get into it."
+  },
+  "3": {
+    "start": "9.640",
+    "end": "15.940",
+    "text": " So I spoke yesterday about Coinbase's suit against the SEC and gave some details about that."
+  },
+  "4": {
+    "start": "16.240",
+    "end": "23.700",
+    "text": " Well, I just wanted to highlight this thread today from a Meta Lawman who explained in a bit more detail about what this is actually going to entail."
+  },
+  "5": {
+    "start": "24.080",
+    "end": "28.520",
+    "text": " So he says here, this case begins in the appellate court, not the trial court."
+  },
+  "6": {
+    "start": "28.520",
+    "end": "33.300",
+    "text": " There will be no discovery, depositions and document exchanges, just briefing and a hearing."
+  },
+  "7": {
+    "start": "33.820",
+    "end": "40.840",
+    "text": " Coinbase has an all-star legal team led by Eugene Scalia, former Secretary of Labor and son of deceased Supreme Court Justice Antonin Scalia."
+  },
+  "8": {
+    "start": "41.400",
+    "end": "45.000",
+    "text": " Scalia has experience defeating government agencies, including the SEC in court."
+  },
+  "9": {
+    "start": "45.100",
+    "end": "47.380",
+    "text": " The petition filed yesterday is quite persuasive."
+  },
+  "10": {
+    "start": "47.780",
+    "end": "57.080",
+    "text": " Then he continues by saying Coinbase is seeking a writ of mandamus, which is a court order complying the SEC to do its job and announce a decision on Coinbase's request for rulemaking."
+  },
+  "11": {
+    "start": "57.120",
+    "end": "62.760",
+    "text": " This action does not necessarily affect the SEC's timing for suing Coinbase as it is threatened to do so."
+  },
+  "12": {
+    "start": "63.100",
+    "end": "69.620",
+    "text": " And then he continues and says he expects major industry players to pile in with amicus briefs supporting Coinbase's position."
+  },
+  "13": {
+    "start": "70.120",
+    "end": "74.920",
+    "text": " We might also see the House Financial Services Committee or individual members come in with briefs in support of Coinbase."
+  },
+  "14": {
+    "start": "75.480",
+    "end": "77.720",
+    "text": " And this is where it gets really juicy."
+  },
+  "15": {
+    "start": "77.860",
+    "end": "81.180",
+    "text": " The SEC commissioners will have to approve any response to Coinbase's action."
+  },
+  "16": {
+    "start": "81.520",
+    "end": "84.980",
+    "text": " There's a tiny chance that the SEC will blink and agree to engage in rulemaking."
+  },
+  "17": {
+    "start": "85.200",
+    "end": "91.060",
+    "text": " And if just one commissioner withdraws their support for Gary Gensler's regulation by enforcement strategy, he's done."
+  },
+  "18": {
+    "start": "91.200",
+    "end": "93.760",
+    "text": " Now, I don't know what he's done means here."
+  },
+  "19": {
+    "start": "93.860",
+    "end": "98.680",
+    "text": " I don't know if that means like he's fired or if he'll be removed or something like that."
+  },
+  "20": {
+    "start": "98.720",
+    "end": "101.200",
+    "text": " I'm not across it as much as I would like to be."
+  },
+  "21": {
+    "start": "101.580",
+    "end": "106.100",
+    "text": " But when I read he's done, I'm like, OK, well, maybe he actually does get removed."
+  },
+  "22": {
+    "start": "106.200",
+    "end": "107.520",
+    "text": " Maybe he actually is out."
+  },
+  "23": {
+    "start": "107.620",
+    "end": "113.020",
+    "text": " Maybe there isn't just those two kind of options that I talked about yesterday and a couple of weeks ago."
+  },
+  "24": {
+    "start": "113.380",
+    "end": "117.960",
+    "text": " And I'm just going to quickly look in here and see if there's any replies here."
+  },
+  "25": {
+    "start": "118.080",
+    "end": "119.480",
+    "text": " OK, yeah. So he's replied here."
+  },
+  "26": {
+    "start": "119.800",
+    "end": "126.320",
+    "text": " To be clear, I mean, one of the Democratic appointed commissioners who have been supporting the regulation by enforcement strategy to date."
+  },
+  "27": {
+    "start": "126.600",
+    "end": "128.700",
+    "text": " OK, so he didn't mean Gary Gensler would be done."
+  },
+  "28": {
+    "start": "128.980",
+    "end": "130.940",
+    "text": " It meant that the commissioner would be done."
+  },
+  "29": {
+    "start": "131.040",
+    "end": "134.000",
+    "text": " OK, so that that makes a bit more sense, I guess."
+  },
+  "30": {
+    "start": "134.020",
+    "end": "135.600",
+    "text": " But still, this is great."
+  },
+  "31": {
+    "start": "135.660",
+    "end": "136.700",
+    "text": " This is a great little breakdown here."
+  },
+  "32": {
+    "start": "136.800",
+    "end": "138.320",
+    "text": " And I'll link in the Youtube description below."
+  },
+  "33": {
+    "start": "138.440",
+    "end": "141.920",
+    "text": " But I think that's it on that one, because I spoke about this a lot yesterday."
+  },
+  "34": {
+    "start": "141.920",
+    "end": "145.880",
+    "text": " So if you missed me speaking about it yesterday, go check out yesterday's episode there."
+  },
+  "35": {
+    "start": "145.960",
+    "end": "149.220",
+    "text": " And I'll keep you guys updated on how Coinbase's suit goes here."
+  },
+  "36": {
+    "start": "150.080",
+    "end": "156.480",
+    "text": " All right. So that DevNet 5 for EIP 4844 that I've been talking about has an update today."
+  },
+  "37": {
+    "start": "156.560",
+    "end": "160.540",
+    "text": " So FLCL here on Twitter, who is a dev at Nethermind, put out a tweet saying"
+  },
+  "38": {
+    "start": "160.540",
+    "end": "165.400",
+    "text": " Nethermind has the fifth iteration of EIP4844 implemented, now syncs with Loadstar."
+  },
+  "39": {
+    "start": "165.560",
+    "end": "168.460",
+    "text": " Waiting for the DevNet V5 full start."
+  },
+  "40": {
+    "start": "168.800",
+    "end": "170.440",
+    "text": " By the way, what's new in V5?"
+  },
+  "41": {
+    "start": "170.440",
+    "end": "173.680",
+    "text": " So V5 changes make 4844 simpler and cleaner."
+  },
+  "42": {
+    "start": "173.880",
+    "end": "175.180",
+    "text": " No zero blob transactions."
+  },
+  "43": {
+    "start": "175.720",
+    "end": "179.900",
+    "text": " Shard blob transactions now must have at least one blob and no aggregated proof."
+  },
+  "44": {
+    "start": "179.960",
+    "end": "183.140",
+    "text": " A commitment and a proof for every blob, which allows to verify faster."
+  },
+  "45": {
+    "start": "183.340",
+    "end": "185.740",
+    "text": " And then a few other things here, which you can read in the YouTube description below."
+  },
+  "46": {
+    "start": "186.160",
+    "end": "190.860",
+    "text": " And Terrence from the Prylabs team also put out a tweet saying two weeks ago shipped"
+  },
+  "47": {
+    "start": "190.860",
+    "end": "192.880",
+    "text": " Capella or I guess like Shapella."
+  },
+  "48": {
+    "start": "192.980",
+    "end": "195.920",
+    "text": " Capella is the consensus layer side of things, which is what Terrence works on."
+  },
+  "49": {
+    "start": "196.060",
+    "end": "199.620",
+    "text": " And this week, Prism syncing multi-client Deneb DevNet 5."
+  },
+  "50": {
+    "start": "199.620",
+    "end": "204.880",
+    "text": " Deneb is part of the Cancun upgrade that is happening at the end of the year"
+  },
+  "51": {
+    "start": "204.880",
+    "end": "206.240",
+    "text": " that I've spoken about before."
+  },
+  "52": {
+    "start": "206.560",
+    "end": "211.720",
+    "text": " Yeah, so there is a lot of progress being made very quickly on 4844"
+  },
+  "53": {
+    "start": "211.720",
+    "end": "213.760",
+    "text": " now that Shapella is behind us."
+  },
+  "54": {
+    "start": "213.780",
+    "end": "217.200",
+    "text": " And I remember I've said this over the last few months, that as soon as Shapella was done,"
+  },
+  "55": {
+    "start": "217.360",
+    "end": "220.240",
+    "text": " I mean, even leading up to it being done on mainnet,"
+  },
+  "56": {
+    "start": "220.520",
+    "end": "224.440",
+    "text": " sorry, being deployed on mainnet, 4844 was making very good progress."
+  },
+  "57": {
+    "start": "224.660",
+    "end": "227.880",
+    "text": " Now, I am growing more and more confident by the day that we're going to be able"
+  },
+  "58": {
+    "start": "227.880",
+    "end": "231.120",
+    "text": " to see 4844 go live on mainnet by end of this year."
+  },
+  "59": {
+    "start": "231.420",
+    "end": "234.820",
+    "text": " Now, that doesn't mean that the rollups are automatically going to take advantage"
+  },
+  "60": {
+    "start": "234.820",
+    "end": "237.740",
+    "text": " of them, as we've seen with some of the applications"
+  },
+  "61": {
+    "start": "237.740",
+    "end": "240.680",
+    "text": " or some of the services built on top of ETHereum, such as Lido."
+  },
+  "62": {
+    "start": "241.500",
+    "end": "244.160",
+    "text": " You know, Shapella went live, but Lido isn't actually doing withdrawals"
+  },
+  "63": {
+    "start": "244.160",
+    "end": "246.660",
+    "text": " until at least a month after Shapella went live"
+  },
+  "64": {
+    "start": "246.660",
+    "end": "249.240",
+    "text": " because they have to implement it on their own code base."
+  },
+  "65": {
+    "start": "249.440",
+    "end": "251.340",
+    "text": " The same is true for rollups."
+  },
+  "66": {
+    "start": "251.560",
+    "end": "255.840",
+    "text": " Rollups do not automatically inherit the kind of new scalability"
+  },
+  "67": {
+    "start": "255.840",
+    "end": "257.340",
+    "text": " that 4844 gives them."
+  },
+  "68": {
+    "start": "257.340",
+    "end": "258.660",
+    "text": " They have to be changed."
+  },
+  "69": {
+    "start": "258.840",
+    "end": "261.700",
+    "text": " From my understanding, they have to be changed at the code level"
+  },
+  "70": {
+    "start": "261.700",
+    "end": "263.200",
+    "text": " in order to take advantage of it."
+  },
+  "71": {
+    "start": "263.240",
+    "end": "268.360",
+    "text": " So we might see some of them ready, you know, at the time that 4844 goes live"
+  },
+  "72": {
+    "start": "268.360",
+    "end": "269.840",
+    "text": " and can immediately take advantage of it."
+  },
+  "73": {
+    "start": "270.020",
+    "end": "273.220",
+    "text": " We may see some of the other ones, you know, not going live for a few weeks"
+  },
+  "74": {
+    "start": "273.220",
+    "end": "274.380",
+    "text": " or a month or something like that."
+  },
+  "75": {
+    "start": "274.620",
+    "end": "278.540",
+    "text": " But it makes total sense for pretty much all of them to switch over"
+  },
+  "76": {
+    "start": "278.540",
+    "end": "282.040",
+    "text": " to blob type transactions instead of the normal call data that they use"
+  },
+  "77": {
+    "start": "282.040",
+    "end": "285.760",
+    "text": " in order to reduce those costs substantially on their each individual"
+  },
+  "78": {
+    "start": "285.760",
+    "end": "287.440",
+    "text": " rollups for the end users."
+  },
+  "79": {
+    "start": "287.600",
+    "end": "289.240",
+    "text": " So I'm expecting it to happen pretty fast."
+  },
+  "80": {
+    "start": "289.280",
+    "end": "292.200",
+    "text": " And I'm curious to see if any of them are actually going to be ready"
+  },
+  "81": {
+    "start": "292.200",
+    "end": "294.600",
+    "text": " at the point of 4844 going live."
+  },
+  "82": {
+    "start": "294.700",
+    "end": "298.220",
+    "text": " Like, for example, will Arbitrum 1 or the Optimism"
+  },
+  "83": {
+    "start": "298.220",
+    "end": "302.980",
+    "text": " Network be ready day one that 4844 goes live to switch over?"
+  },
+  "84": {
+    "start": "303.080",
+    "end": "307.820",
+    "text": " So basically automatically switch over from using call data to using blobs."
+  },
+  "85": {
+    "start": "307.980",
+    "end": "308.780",
+    "text": " And then immediately."
+  },
+  "86": {
+    "start": "308.780",
+    "end": "312.060",
+    "text": " And this is this would be a quite immediate effect for end users."
+  },
+  "87": {
+    "start": "312.180",
+    "end": "315.720",
+    "text": " Those fees would drop by probably 10 times or more."
+  },
+  "88": {
+    "start": "315.760",
+    "end": "318.880",
+    "text": " Right. So this isn't like the merge where the merge was obviously"
+  },
+  "89": {
+    "start": "318.880",
+    "end": "322.020",
+    "text": " a huge monumental event, but for end users, they didn't really feel anything."
+  },
+  "90": {
+    "start": "322.120",
+    "end": "324.180",
+    "text": " It didn't bring any scalability, right?"
+  },
+  "91": {
+    "start": "324.220",
+    "end": "327.160",
+    "text": " It didn't bring any kind of UX or UI improvements for"
+  },
+  "92": {
+    "start": "327.160",
+    "end": "330.560",
+    "text": " for end users that they would feel at least. There was some improvements"
+  },
+  "93": {
+    "start": "330.560",
+    "end": "332.380",
+    "text": " like the 12 second block time, obviously."
+  },
+  "94": {
+    "start": "332.780",
+    "end": "334.980",
+    "text": " But it's not something that you would really feel unless you were actually"
+  },
+  "95": { "start": "334.980", "end": "335.700", "text": " looking for it." },
+  "96": {
+    "start": "335.860",
+    "end": "340.260",
+    "text": " Whereas with 4844, if the rollup switches over to it"
+  },
+  "97": {
+    "start": "340.260",
+    "end": "343.020",
+    "text": " or if one of those networks switches over to it when it goes live,"
+  },
+  "98": {
+    "start": "343.100",
+    "end": "345.780",
+    "text": " then immediately end users will feel the effect"
+  },
+  "99": {
+    "start": "345.780",
+    "end": "348.280",
+    "text": " here in their transactions being a lot cheaper."
+  },
+  "100": {
+    "start": "348.480",
+    "end": "350.320",
+    "text": " And they're probably going to ask, you know, why is it cheaper?"
+  },
+  "101": {
+    "start": "350.480",
+    "end": "352.400",
+    "text": " And this is where things get really positive."
+  },
+  "102": {
+    "start": "352.440",
+    "end": "353.580",
+    "text": " They're going to find out that it's cheaper"
+  },
+  "103": {
+    "start": "353.580",
+    "end": "357.300",
+    "text": " because there was an upgrade that went through on ETHereum to make it that way."
+  },
+  "104": {
+    "start": "357.400",
+    "end": "361.940",
+    "text": " And what I really like about that is that it reinstills confidence in people"
+  },
+  "105": {
+    "start": "361.940",
+    "end": "365.880",
+    "text": " who may think that ETHereum is only scaling via layer two and not scaling"
+  },
+  "106": {
+    "start": "365.880",
+    "end": "369.360",
+    "text": " its layer one and shows people that no, ETHereum is scaling at layer one"
+  },
+  "107": { "start": "369.360", "end": "370.160", "text": " and layer two." },
+  "108": {
+    "start": "370.220",
+    "end": "373.500",
+    "text": " It's just that as part of the rollup centric roadmap, layer one,"
+  },
+  "109": {
+    "start": "373.500",
+    "end": "377.060",
+    "text": " ETHereum is mostly being scaled to service layer twos."
+  },
+  "110": {
+    "start": "377.460",
+    "end": "380.140",
+    "text": " And, you know, Polyna has talked about this recently as well,"
+  },
+  "111": {
+    "start": "380.140",
+    "end": "383.220",
+    "text": " about how layer one ETHereum could integrate its own ZKVM"
+  },
+  "112": {
+    "start": "383.220",
+    "end": "386.120",
+    "text": " and a bunch of other updates that could scale it by 10 to 100 times."
+  },
+  "113": {
+    "start": "386.620",
+    "end": "387.700",
+    "text": " That's all well and good."
+  },
+  "114": {
+    "start": "387.720",
+    "end": "391.300",
+    "text": " But 10 to 100 times is not nearly enough for the scalability"
+  },
+  "115": {
+    "start": "391.300",
+    "end": "392.400",
+    "text": " that we need for end users."
+  },
+  "116": {
+    "start": "392.480",
+    "end": "394.380",
+    "text": " That's why end users are going to be sitting at layer two,"
+  },
+  "117": {
+    "start": "394.680",
+    "end": "397.360",
+    "text": " whereas layer one is going to get more scalable, of course."
+  },
+  "118": {
+    "start": "397.900",
+    "end": "402.540",
+    "text": " But eventually every user except whales and the layer twos themselves"
+  },
+  "119": {
+    "start": "402.540",
+    "end": "404.280",
+    "text": " settling on ETHereum will be priced out."
+  },
+  "120": {
+    "start": "404.480",
+    "end": "407.820",
+    "text": " So the layer twos and higher than that, like layer threes and things like that"
+  },
+  "121": {
+    "start": "407.820",
+    "end": "411.260",
+    "text": " is the user layer, as I've talked about numerous times before."
+  },
+  "122": {
+    "start": "411.340",
+    "end": "414.900",
+    "text": " But I'm curious to see which one's are actually going to be able to go live"
+  },
+  "123": {
+    "start": "414.900",
+    "end": "420.700",
+    "text": " with the 4844 upgrade at the same time that that it goes live on mainnet here."
+  },
+  "124": {
+    "start": "421.580",
+    "end": "424.620",
+    "text": " All right. So bit more staking chat today."
+  },
+  "125": {
+    "start": "424.620",
+    "end": "427.300",
+    "text": " I know I've talked about this a lot lately, but I think it's very relevant"
+  },
+  "126": {
+    "start": "427.300",
+    "end": "429.740",
+    "text": " because there is a lot happening in the staking ecosystem."
+  },
+  "127": {
+    "start": "429.980",
+    "end": "432.420",
+    "text": " There's a lot of interesting stuff happening that I feel is worth covering."
+  },
+  "128": {
+    "start": "432.800",
+    "end": "435.640",
+    "text": " So Jasper from the RocketPool community put together another great thread"
+  },
+  "129": {
+    "start": "435.640",
+    "end": "440.480",
+    "text": " talking about RocketPool's growth since the Atlas upgrade went live."
+  },
+  "130": {
+    "start": "440.560",
+    "end": "442.860",
+    "text": " So the Atlas upgrade didn't go live that long ago."
+  },
+  "131": {
+    "start": "443.380",
+    "end": "446.440",
+    "text": " I don't know how long ago it was now, maybe like 10 days,"
+  },
+  "132": {
+    "start": "446.500",
+    "end": "447.640",
+    "text": " nine days ago or something like that."
+  },
+  "133": {
+    "start": "447.760",
+    "end": "448.940",
+    "text": " So it hasn't been too long."
+  },
+  "134": {
+    "start": "449.380",
+    "end": "453.260",
+    "text": " But Jasper starts off this thread by saying the RocketPool team launched"
+  },
+  "135": {
+    "start": "453.260",
+    "end": "456.580",
+    "text": " the Atlas upgrade, enabling eight ETH minipools or validators."
+  },
+  "136": {
+    "start": "456.680",
+    "end": "459.320",
+    "text": " It's been a resounding success. So let's look at some numbers."
+  },
+  "137": {
+    "start": "459.600",
+    "end": "463.220",
+    "text": " So the numbers are that there are three thousand six hundred and fifty"
+  },
+  "138": {
+    "start": "463.220",
+    "end": "466.360",
+    "text": " four minipools launched at 25 percent growth."
+  },
+  "139": {
+    "start": "466.580",
+    "end": "469.860",
+    "text": " Two thousand six hundred and thirty two of those coming from a 16 ETH reduction."
+  },
+  "140": {
+    "start": "470.000",
+    "end": "471.440",
+    "text": " So basically people who are already running"
+  },
+  "141": {
+    "start": "471.440",
+    "end": "474.660",
+    "text": " 16 ETH minipools converting that into 8 ETH minipool."
+  },
+  "142": {
+    "start": "474.780",
+    "end": "477.900",
+    "text": " And then Jasper continues saying that RocketPool deposited 50,000"
+  },
+  "143": {
+    "start": "477.900",
+    "end": "480.660",
+    "text": " ETH to the beacon chain with a queue for another 60,000 ETH,"
+  },
+  "144": {
+    "start": "480.700",
+    "end": "482.220",
+    "text": " which is this 11 percent growth here."
+  },
+  "145": {
+    "start": "482.220",
+    "end": "485.900",
+    "text": " And interestingly, 90 pools have been solo staker migrations"
+  },
+  "146": {
+    "start": "485.900",
+    "end": "488.400",
+    "text": " and only 128 pools have exited."
+  },
+  "147": {
+    "start": "489.240",
+    "end": "490.320",
+    "text": " And then Jasper continues."
+  },
+  "148": {
+    "start": "490.860",
+    "end": "496.060",
+    "text": " Our ETH growth supply is up 10 percent from from 232,000 to 256,000"
+  },
+  "149": {
+    "start": "496.060",
+    "end": "499.000",
+    "text": " with deposits picking up recently as Kraken and Coinbase"
+  },
+  "150": {
+    "start": "499.000",
+    "end": "501.380",
+    "text": " unlock their staked ETH, punching above the belt,"
+  },
+  "151": {
+    "start": "501.520",
+    "end": "504.160",
+    "text": " two percent of the beacon chain, but 10 percent of inflows."
+  },
+  "152": {
+    "start": "504.500",
+    "end": "506.360",
+    "text": " With integrations, this is up only."
+  },
+  "153": {
+    "start": "506.620",
+    "end": "510.040",
+    "text": " And then the node operator count also continues up and to the right."
+  },
+  "154": {
+    "start": "510.100",
+    "end": "512.780",
+    "text": " Now, at two thousand four hundred and fifteen and the mini pool"
+  },
+  "155": {
+    "start": "512.780",
+    "end": "516.520",
+    "text": " queue has topped out for now at sixty six thousand ETH, providing bonus rewards,"
+  },
+  "156": {
+    "start": "516.660",
+    "end": "521.860",
+    "text": " boosting our ETH APR approximately one hundred, two hundred spots advance per day."
+  },
+  "157": { "start": "522.040", "end": "523.020", "text": " This is huge." },
+  "158": {
+    "start": "523.180",
+    "end": "525.660",
+    "text": " I mean, I remembered saying this for months to you guys that I believe"
+  },
+  "159": {
+    "start": "525.660",
+    "end": "528.800",
+    "text": " that RocketPool's Atlas upgrade will be a huge boost to the RocketPool ecosystem"
+  },
+  "160": {
+    "start": "528.800",
+    "end": "532.460",
+    "text": " because it addresses the concerns around RETH scalability"
+  },
+  "161": {
+    "start": "532.460",
+    "end": "536.400",
+    "text": " and around lowering that barrier to entry for people to spin up minipools."
+  },
+  "162": {
+    "start": "536.880",
+    "end": "540.720",
+    "text": " I've started converting my mini pools today from 16 ETH to 8 ETH."
+  },
+  "163": {
+    "start": "540.900",
+    "end": "543.140",
+    "text": " It's very straightforward, to be honest."
+  },
+  "164": {
+    "start": "543.220",
+    "end": "544.480",
+    "text": " I'm just following the RocketPool docs."
+  },
+  "165": {
+    "start": "544.640",
+    "end": "547.900",
+    "text": " And as usual, the RocketPool docs are the goat of of docs."
+  },
+  "166": {
+    "start": "548.000",
+    "end": "549.440",
+    "text": " But yeah, it's very straightforward."
+  },
+  "167": {
+    "start": "549.440",
+    "end": "552.300",
+    "text": " And you can spin up new mini pools today with eight ETH and two point"
+  },
+  "168": {
+    "start": "552.300",
+    "end": "553.740",
+    "text": " four ETH worth of RPL tokens."
+  },
+  "169": {
+    "start": "553.820",
+    "end": "557.420",
+    "text": " So if you're already exposed to RPL and you have the ETH that is required,"
+  },
+  "170": {
+    "start": "557.460",
+    "end": "562.240",
+    "text": " as I said before, all you need is a relatively low powered device to do this."
+  },
+  "171": {
+    "start": "562.280",
+    "end": "563.400",
+    "text": " You can do it on a Raspberry Pi."
+  },
+  "172": {
+    "start": "563.460",
+    "end": "564.880",
+    "text": " You can do it on a rock five B board."
+  },
+  "173": {
+    "start": "564.940",
+    "end": "568.900",
+    "text": " Check out the Proteus device that Joe from the RocketPool community has put together."
+  },
+  "174": {
+    "start": "569.080",
+    "end": "570.340",
+    "text": " That might be something that you're interested in,"
+  },
+  "175": {
+    "start": "570.640",
+    "end": "573.020",
+    "text": " or you could just run it on your laptop if you're happy with your laptop"
+  },
+  "176": {
+    "start": "573.020",
+    "end": "574.720",
+    "text": " being online 24/7."
+  },
+  "177": {
+    "start": "575.100",
+    "end": "577.880",
+    "text": " You can run the mini pool on your laptop using the smart node stack"
+  },
+  "178": {
+    "start": "577.880",
+    "end": "581.300",
+    "text": " if you're running Windows, it might be a bit harder."
+  },
+  "179": {
+    "start": "581.800",
+    "end": "585.480",
+    "text": " You might have to do kind of some funky things to get it to work."
+  },
+  "180": {
+    "start": "585.740",
+    "end": "588.200",
+    "text": " But on Mac OS, it should work out of the box, I believe."
+  },
+  "181": {
+    "start": "588.500",
+    "end": "592.200",
+    "text": " And then if you're already running, you know, Ubuntu on on a laptop, well,"
+  },
+  "182": {
+    "start": "592.200",
+    "end": "595.060",
+    "text": " then it's going to be very easy for you to integrate with the smart node"
+  },
+  "183": {
+    "start": "595.060",
+    "end": "596.480",
+    "text": " stack and get that all started there."
+  },
+  "184": {
+    "start": "596.540",
+    "end": "598.620",
+    "text": " But as I said, you don't need high powered hardware."
+  },
+  "185": {
+    "start": "598.860",
+    "end": "600.040",
+    "text": " You can do it on a Raspberry Pi."
+  },
+  "186": {
+    "start": "600.140",
+    "end": "604.020",
+    "text": " You can do it on a Rock5 B board, which is which which is what Proteus uses."
+  },
+  "187": {
+    "start": "604.180",
+    "end": "607.200",
+    "text": " Or you can do it on any other kind of old hardware that you may have lying around."
+  },
+  "188": {
+    "start": "607.420",
+    "end": "612.940",
+    "text": " I would say that in terms of the minimum requirements, two terabyte SSD"
+  },
+  "189": {
+    "start": "612.940",
+    "end": "616.280",
+    "text": " is probably the biggest expense there in terms of RAM."
+  },
+  "190": {
+    "start": "616.900",
+    "end": "621.580",
+    "text": " Eight gig could work, but I usually go 16 gig, which is still very, very cheap."
+  },
+  "191": {
+    "start": "621.580",
+    "end": "624.860",
+    "text": " RAM is not that expensive, not as expensive as it used to be."
+  },
+  "192": {
+    "start": "624.980",
+    "end": "626.780",
+    "text": " And that should really be all you're worried about."
+  },
+  "193": {
+    "start": "626.920",
+    "end": "629.720",
+    "text": " CPU, you don't really need a strong CPU."
+  },
+  "194": {
+    "start": "629.720",
+    "end": "631.980",
+    "text": " You can just get a run of the mill one, as I said, because you're running"
+  },
+  "195": {
+    "start": "631.980",
+    "end": "634.280",
+    "text": " you're running it on these small, low powered devices"
+  },
+  "196": {
+    "start": "634.280",
+    "end": "636.040",
+    "text": " that don't have powerful CPUs anyway."
+  },
+  "197": {
+    "start": "636.440",
+    "end": "640.160",
+    "text": " So, yeah, look into that if you are interested in spinning up mini pools."
+  },
+  "198": {
+    "start": "640.320",
+    "end": "644.240",
+    "text": " Yeah. Now talking about ETHereum staking, there has been a bit of chatter around"
+  },
+  "199": {
+    "start": "644.240",
+    "end": "647.940",
+    "text": " actually tracking how many validators are active on the beacon chain,"
+  },
+  "200": {
+    "start": "647.940",
+    "end": "654.860",
+    "text": " because as you can see, the beacon chain website has active validators at 561,655."
+  },
+  "201": {
+    "start": "655.260",
+    "end": "658.300",
+    "text": " Rated Network actually has a different number here where,"
+  },
+  "202": {
+    "start": "658.540",
+    "end": "661.120",
+    "text": " oh man, I've lost the number here anyway, but I saw it before."
+  },
+  "203": {
+    "start": "661.200",
+    "end": "662.020",
+    "text": " They have a different number."
+  },
+  "204": {
+    "start": "662.420",
+    "end": "665.560",
+    "text": " And so do a bunch of other websites like Dune Analytics Dashboards."
+  },
+  "205": {
+    "start": "666.000",
+    "end": "670.240",
+    "text": " Now, there is discrepancies between these websites"
+  },
+  "206": {
+    "start": "670.240",
+    "end": "673.280",
+    "text": " because they're counting validators in different ways."
+  },
+  "207": {
+    "start": "673.640",
+    "end": "676.920",
+    "text": " Some of them might be counting validators as, OK, well, we know that"
+  },
+  "208": {
+    "start": "677.360",
+    "end": "679.260",
+    "text": " 10,000 validators or what is it here?"
+  },
+  "209": {
+    "start": "679.400",
+    "end": "682.780",
+    "text": " We know that 13,000 validators are going to actually enter in,"
+  },
+  "210": {
+    "start": "682.900",
+    "end": "684.280",
+    "text": " but they're pending right now."
+  },
+  "211": {
+    "start": "684.400",
+    "end": "687.440",
+    "text": " So let's just add that to the total amount of active validators."
+  },
+  "212": {
+    "start": "687.560",
+    "end": "688.280",
+    "text": " And that's the number."
+  },
+  "213": {
+    "start": "688.500",
+    "end": "690.340",
+    "text": " Whereas I don't think that's what beacon chain is doing."
+  },
+  "214": {
+    "start": "690.400",
+    "end": "692.580",
+    "text": " I think that they split it out where they say, OK,"
+  },
+  "215": {
+    "start": "692.620",
+    "end": "694.360",
+    "text": " these are the active validators on the network."
+  },
+  "216": {
+    "start": "694.440",
+    "end": "697.140",
+    "text": " And here are the pending validators both entering and exiting."
+  },
+  "217": {
+    "start": "698.040",
+    "end": "700.540",
+    "text": " So because of that, their number is going to be different to ones"
+  },
+  "218": {
+    "start": "700.540",
+    "end": "701.920",
+    "text": " that count it in different ways here."
+  },
+  "219": {
+    "start": "702.060",
+    "end": "705.600",
+    "text": " And then I've also seen the amount of ETH at stake number be"
+  },
+  "220": {
+    "start": "706.240",
+    "end": "708.160",
+    "text": " be inaccurately shown on certain websites."
+  },
+  "221": {
+    "start": "708.560",
+    "end": "711.740",
+    "text": " And that's because they are just looking at the ETH2 deposit contract."
+  },
+  "222": {
+    "start": "712.020",
+    "end": "714.760",
+    "text": " So I have to explain this because I don't think many people are aware of this."
+  },
+  "223": {
+    "start": "715.140",
+    "end": "717.960",
+    "text": " The ETH2 deposit contract is a one way burn,"
+  },
+  "224": {
+    "start": "718.140",
+    "end": "720.700",
+    "text": " which means you send ETH in there to enter into ETH staking."
+  },
+  "225": {
+    "start": "721.120",
+    "end": "724.160",
+    "text": " And it burns that ETH technically on the execution layer side"
+  },
+  "226": {
+    "start": "724.160",
+    "end": "727.480",
+    "text": " and issues it on the consensus layer side, which allows you to continue staking."
+  },
+  "227": {
+    "start": "727.680",
+    "end": "729.060",
+    "text": " And then when you go to withdraw it,"
+  },
+  "228": {
+    "start": "729.240",
+    "end": "732.700",
+    "text": " it does not reduce the balance of the ETH2 deposit contract,"
+  },
+  "229": {
+    "start": "732.760",
+    "end": "733.700",
+    "text": " at least not right now."
+  },
+  "230": {
+    "start": "733.700",
+    "end": "735.960",
+    "text": " May in the future, but it doesn't right now."
+  },
+  "231": {
+    "start": "736.020",
+    "end": "737.360",
+    "text": " Now, this is not an accounting error."
+  },
+  "232": {
+    "start": "737.440",
+    "end": "739.540",
+    "text": " This is not a bug. This is working as intended."
+  },
+  "233": {
+    "start": "739.720",
+    "end": "745.300",
+    "text": " So as you can see, the ETH2 deposit contract has 19.4 million ETH in it."
+  },
+  "234": {
+    "start": "745.360",
+    "end": "747.420",
+    "text": " Now, this is ETH that has been effectively burned."
+  },
+  "235": {
+    "start": "747.540",
+    "end": "750.480",
+    "text": " It is not ETH that can be withdrawn from this contract."
+  },
+  "236": {
+    "start": "750.640",
+    "end": "754.160",
+    "text": " It is, as I said, is a one way bridge into the consensus layer into staking."
+  },
+  "237": {
+    "start": "754.540",
+    "end": "756.280",
+    "text": " Now you can see here on the BeaconChain website,"
+  },
+  "238": {
+    "start": "756.520",
+    "end": "759.140",
+    "text": " it says that the staked ETH is at 18 million."
+  },
+  "239": {
+    "start": "759.320",
+    "end": "761.780",
+    "text": " So that is a pretty large discrepancy there."
+  },
+  "240": {
+    "start": "761.780",
+    "end": "765.000",
+    "text": " Well, that's because any ETH that is withdrawn from the BeaconChain"
+  },
+  "241": {
+    "start": "765.000",
+    "end": "769.360",
+    "text": " as a full exit, right, as a full exit of the validator"
+  },
+  "242": {
+    "start": "769.360",
+    "end": "771.020",
+    "text": " does not come from this contract."
+  },
+  "243": {
+    "start": "771.280",
+    "end": "774.980",
+    "text": " It comes from the consensus layer itself, which is where the ETH is actually stored."
+  },
+  "244": {
+    "start": "775.280",
+    "end": "778.160",
+    "text": " And as I said, that means that this contract is going to be up only"
+  },
+  "245": {
+    "start": "778.160",
+    "end": "779.440",
+    "text": " for the foreseeable future."
+  },
+  "246": {
+    "start": "779.520",
+    "end": "783.100",
+    "text": " There may be a reconciliation of balances one day where the contract is,"
+  },
+  "247": {
+    "start": "783.260",
+    "end": "786.100",
+    "text": " where there is a kind of a hard fork to do this."
+  },
+  "248": {
+    "start": "786.420",
+    "end": "789.480",
+    "text": " But it may not be something that gets done because it may not be."
+  },
+  "249": {
+    "start": "789.620",
+    "end": "791.000",
+    "text": " There may not be any point to it."
+  },
+  "250": {
+    "start": "791.100",
+    "end": "794.880",
+    "text": " But you shouldn't be looking at the ETH to deposit contract ETH balance anymore"
+  },
+  "251": {
+    "start": "794.880",
+    "end": "798.900",
+    "text": " to see how much total ETH is at stake, because as I said, this is up only now"
+  },
+  "252": {
+    "start": "798.900",
+    "end": "800.520",
+    "text": " or it has always been up only."
+  },
+  "253": {
+    "start": "800.740",
+    "end": "804.600",
+    "text": " But when the validators withdraw, it's not going to show here."
+  },
+  "254": {
+    "start": "804.940",
+    "end": "808.720",
+    "text": " Whereas BeaconChain, I believe, is probably the most accurate for showing this."
+  },
+  "255": {
+    "start": "808.760",
+    "end": "810.100",
+    "text": " So that's something else to keep in mind."
+  },
+  "256": {
+    "start": "810.600",
+    "end": "812.760",
+    "text": " Now, of course, Rated.Network is a great site."
+  },
+  "257": {
+    "start": "812.880",
+    "end": "814.760",
+    "text": " I've highlighted a bunch on the Refuel before."
+  },
+  "258": {
+    "start": "814.860",
+    "end": "818.300",
+    "text": " It shows a really great breakdown of all different staking providers,"
+  },
+  "259": {
+    "start": "818.300",
+    "end": "822.000",
+    "text": " their network penetration, what consensus clients they're using,"
+  },
+  "260": {
+    "start": "822.160",
+    "end": "825.880",
+    "text": " what MAV boost relays they're using, things like that, which is really, really cool."
+  },
+  "261": {
+    "start": "826.400",
+    "end": "828.180",
+    "text": " Now, I want to point out one thing."
+  },
+  "262": {
+    "start": "828.260",
+    "end": "831.340",
+    "text": " You guys know that Kraken was forced to withdraw all their validators, right?"
+  },
+  "263": {
+    "start": "832.060",
+    "end": "835.340",
+    "text": " Well, not all of them, all the validators that belong to US based persons."
+  },
+  "264": {
+    "start": "835.940",
+    "end": "837.780",
+    "text": " And it's been a lot of validators, actually."
+  },
+  "265": {
+    "start": "837.920",
+    "end": "840.480",
+    "text": " You can see here that Kraken actually started off"
+  },
+  "266": {
+    "start": "840.480",
+    "end": "844.360",
+    "text": " just before Shapella went live at 7.1% of the network."
+  },
+  "267": {
+    "start": "844.540",
+    "end": "846.940",
+    "text": " Now they're down to 4.4% of the network,"
+  },
+  "268": {
+    "start": "846.940",
+    "end": "848.740",
+    "text": " which is a pretty massive reduction."
+  },
+  "269": {
+    "start": "848.800",
+    "end": "851.540",
+    "text": " That is a 2.8% reduction in their validators."
+  },
+  "270": {
+    "start": "851.680",
+    "end": "853.140",
+    "text": " And I don't think they're done yet,"
+  },
+  "271": {
+    "start": "853.160",
+    "end": "855.980",
+    "text": " because obviously there's the queue that they have to deal with here."
+  },
+  "272": {
+    "start": "856.240",
+    "end": "859.780",
+    "text": " Now, I hear from some reliable sources that have been tracking"
+  },
+  "273": {
+    "start": "859.780",
+    "end": "861.840",
+    "text": " where the Kraken ETH has been going,"
+  },
+  "274": {
+    "start": "862.220",
+    "end": "864.620",
+    "text": " that a lot of it has actually been going into a solo staking"
+  },
+  "275": {
+    "start": "864.620",
+    "end": "868.820",
+    "text": " or other decentralized staking pools, which is obviously very, very cool to see."
+  },
+  "276": {
+    "start": "868.940",
+    "end": "871.540",
+    "text": " But of course, some of it will have gone into other services,"
+  },
+  "277": {
+    "start": "871.920",
+    "end": "876.120",
+    "text": " other centralized services like Coinbase and other staking LSDs, like"
+  },
+  "278": { "start": "877.180", "end": "877.520", "text": " Lido." },
+  "279": {
+    "start": "877.940",
+    "end": "881.260",
+    "text": " But yeah, it's great to see that ETH has been restaked instead of sold."
+  },
+  "280": {
+    "start": "881.320",
+    "end": "884.760",
+    "text": " And I did say that I believed that ETH would be restaked with another provider,"
+  },
+  "281": {
+    "start": "885.060",
+    "end": "885.920",
+    "text": " or most of it would be."
+  },
+  "282": {
+    "start": "886.080",
+    "end": "887.660",
+    "text": " I didn't really think that it would be sold."
+  },
+  "283": {
+    "start": "887.900",
+    "end": "890.540",
+    "text": " And that goes back to, I guess, like the overall take that I had,"
+  },
+  "284": {
+    "start": "890.620",
+    "end": "894.120",
+    "text": " that I didn't believe that the ETH that was withdrawn from the Beacon Chain"
+  },
+  "285": {
+    "start": "894.120",
+    "end": "895.100",
+    "text": " would really be sold."
+  },
+  "286": {
+    "start": "895.140",
+    "end": "897.180",
+    "text": " It'd be changing as part of that great reshuffling."
+  },
+  "287": {
+    "start": "897.560",
+    "end": "898.980",
+    "text": " But it's still early days, right?"
+  },
+  "288": {
+    "start": "899.000",
+    "end": "900.900",
+    "text": " It hasn't been that long since Shapella went live."
+  },
+  "289": {
+    "start": "901.040",
+    "end": "904.840",
+    "text": " I mean, it's been about two weeks now, I think, since Shapella went live."
+  },
+  "290": {
+    "start": "904.840",
+    "end": "908.140",
+    "text": " This is a month long, year long kind of process of reshuffling."
+  },
+  "291": {
+    "start": "908.540",
+    "end": "912.320",
+    "text": " The queue here is, I believe the entry queue right now is"
+  },
+  "292": {
+    "start": "912.320",
+    "end": "914.460",
+    "text": " 18 days or something like that."
+  },
+  "293": {
+    "start": "914.500",
+    "end": "917.680",
+    "text": " So if you were to deposit 32 ETH and spin up a validator today,"
+  },
+  "294": {
+    "start": "917.680",
+    "end": "920.980",
+    "text": " you would be waiting 18 days for that validator to actually become"
+  },
+  "295": {
+    "start": "920.980",
+    "end": "922.640",
+    "text": " active on the network."
+  },
+  "296": {
+    "start": "922.760",
+    "end": "925.860",
+    "text": " And same is true, I believe, for the exit queue here."
+  },
+  "297": {
+    "start": "925.920",
+    "end": "928.980",
+    "text": " So if you wanted to withdraw and that's just a natural kind of effect,"
+  },
+  "298": {
+    "start": "929.040",
+    "end": "932.540",
+    "text": " that's a natural thing that ETH staking has integrated in it."
+  },
+  "299": {
+    "start": "932.580",
+    "end": "934.560",
+    "text": " You guys all know about the deposit and withdraw queues."
+  },
+  "300": {
+    "start": "934.840",
+    "end": "935.980",
+    "text": " So no surprise there."
+  },
+  "301": {
+    "start": "936.040",
+    "end": "939.580",
+    "text": " But yeah, just wanted to clarify a bunch of those points for you."
+  },
+  "302": {
+    "start": "939.660",
+    "end": "942.560",
+    "text": " Now, moving on to the second last thing about staking"
+  },
+  "303": {
+    "start": "942.560",
+    "end": "945.400",
+    "text": " is a massive announcement from Etherfire today."
+  },
+  "304": {
+    "start": "945.600",
+    "end": "949.140",
+    "text": " So they have announced something called Operation Solo Staker."
+  },
+  "305": {
+    "start": "949.400",
+    "end": "953.100",
+    "text": " This program has one simple goal, to empower individuals"
+  },
+  "306": {
+    "start": "953.100",
+    "end": "955.160",
+    "text": " around the world to become solo stakers."
+  },
+  "307": {
+    "start": "955.280",
+    "end": "957.540",
+    "text": " Now, there's a thread and an accompanying blog post here."
+  },
+  "308": {
+    "start": "958.180",
+    "end": "960.000",
+    "text": " Sorry, accompanying website here, I should say,"
+  },
+  "309": {
+    "start": "960.040",
+    "end": "962.180",
+    "text": " with a bunch of information on the website as well."
+  },
+  "310": {
+    "start": "962.180",
+    "end": "966.140",
+    "text": " But basically why they're doing this is because their decentralization"
+  },
+  "311": {
+    "start": "966.140",
+    "end": "969.060",
+    "text": " is a primary objective for them."
+  },
+  "312": {
+    "start": "969.160",
+    "end": "972.500",
+    "text": " They won't compromise on building a noncustodial and decentralized protocol."
+  },
+  "313": {
+    "start": "972.700",
+    "end": "975.940",
+    "text": " They will do the right thing for the Ethereum community."
+  },
+  "314": {
+    "start": "976.100",
+    "end": "977.500",
+    "text": " And then they say, what is it?"
+  },
+  "315": {
+    "start": "977.540",
+    "end": "980.400",
+    "text": " Well, the program offers solo stakers a free machine"
+  },
+  "316": {
+    "start": "980.400",
+    "end": "983.360",
+    "text": " to run an Ethereum validator node and the ETH to stake it."
+  },
+  "317": {
+    "start": "983.880",
+    "end": "988.080",
+    "text": " Their partners, Avado and Dappnode, will provide the solo stakers"
+  },
+  "318": {
+    "start": "988.080",
+    "end": "992.120",
+    "text": " the hardware and Obel will set up their DVT tech on every node."
+  },
+  "319": {
+    "start": "992.520",
+    "end": "995.220",
+    "text": " The goal is to get machines in the hands of stakers all around the world,"
+  },
+  "320": {
+    "start": "995.420",
+    "end": "998.480",
+    "text": " many of whom do not have access to robust staking technology right now."
+  },
+  "321": {
+    "start": "998.780",
+    "end": "999.940",
+    "text": " Their stakers will earn a small profit"
+  },
+  "322": {
+    "start": "999.940",
+    "end": "1002.600",
+    "text": " running the machine to pay for internet, food, or whatever they want."
+  },
+  "323": {
+    "start": "1002.980",
+    "end": "1005.720",
+    "text": " And then it continues on in this thread here."
+  },
+  "324": {
+    "start": "1005.820",
+    "end": "1009.540",
+    "text": " Now, you can click this button here, become a solo staker and apply"
+  },
+  "325": {
+    "start": "1009.540",
+    "end": "1015.220",
+    "text": " and give a bunch of information here and apply to this initiative here."
+  },
+  "326": {
+    "start": "1015.380",
+    "end": "1016.640",
+    "text": " And maybe you'll get chosen."
+  },
+  "327": {
+    "start": "1016.640",
+    "end": "1020.180",
+    "text": " It is not open. It's open to everyone, but it's not like everyone is going to be chosen,"
+  },
+  "328": {
+    "start": "1020.400",
+    "end": "1023.720",
+    "text": " obviously, because there are a bunch of"
+  },
+  "329": {
+    "start": "1023.720",
+    "end": "1027.120",
+    "text": " of expenses involved with stuff like this."
+  },
+  "330": {
+    "start": "1027.340",
+    "end": "1032.140",
+    "text": " And obviously, it's something that's being funded by other teams involved here."
+  },
+  "331": {
+    "start": "1032.500",
+    "end": "1036.860",
+    "text": " But some of the criteria include experience staking and be technically competent."
+  },
+  "332": {
+    "start": "1037.320",
+    "end": "1040.940",
+    "text": " You, I mean, whether you're a"
+  },
+  "333": {
+    "start": "1040.940",
+    "end": "1044.300",
+    "text": " you're probably not an existing solo staker, but even if you've used like RocketPool,"
+  },
+  "334": {
+    "start": "1044.300",
+    "end": "1045.680",
+    "text": " that would that would suffice here."
+  },
+  "335": {
+    "start": "1045.900",
+    "end": "1048.940",
+    "text": " And maybe you've watched some videos on or read guides on it"
+  },
+  "336": {
+    "start": "1048.940",
+    "end": "1051.660",
+    "text": " and gone through like test nets for staking that would also suffice."
+  },
+  "337": {
+    "start": "1051.800",
+    "end": "1055.800",
+    "text": " You need to have a pretty solid internet connection with 250"
+  },
+  "338": {
+    "start": "1055.800",
+    "end": "1058.460",
+    "text": " slash 100 bandwidth with no cap."
+  },
+  "339": {
+    "start": "1059.320",
+    "end": "1061.520",
+    "text": " That that seems pretty excessive, to be honest."
+  },
+  "340": {
+    "start": "1062.040",
+    "end": "1065.460",
+    "text": " I run, so I have a very high download speed."
+  },
+  "341": {
+    "start": "1065.540",
+    "end": "1071.000",
+    "text": " So I have one gigabit per second down, but I don't have 100 megabit per second up."
+  },
+  "342": {
+    "start": "1071.000",
+    "end": "1074.580",
+    "text": " I have 40 at max up, and I'm running, as you guys know,"
+  },
+  "343": {
+    "start": "1074.780",
+    "end": "1079.420",
+    "text": " multiple ELCL client combos with many validators on the same network."
+  },
+  "344": {
+    "start": "1079.840",
+    "end": "1083.740",
+    "text": " And yes, OK, I'm probably saturating my upload bandwidth here,"
+  },
+  "345": {
+    "start": "1083.880",
+    "end": "1086.440",
+    "text": " but it's still working and it's working fine."
+  },
+  "346": {
+    "start": "1087.060",
+    "end": "1091.280",
+    "text": " As you guys know, just to just to remind you, I have my archive node box,"
+  },
+  "347": {
+    "start": "1091.300",
+    "end": "1092.280",
+    "text": " which is running an ELCL."
+  },
+  "348": {
+    "start": "1092.560",
+    "end": "1095.680",
+    "text": " I have my Rocketpool box, which is running an ELCL."
+  },
+  "349": {
+    "start": "1095.880",
+    "end": "1099.580",
+    "text": " I have my Proteus, which is also running an ELCL and I have my solo staking box,"
+  },
+  "350": {
+    "start": "1099.580",
+    "end": "1102.720",
+    "text": " which is also running that and I'm running Obel's"
+  },
+  "351": {
+    "start": "1102.720",
+    "end": "1104.720",
+    "text": " software on mainnet as well."
+  },
+  "352": {
+    "start": "1105.360",
+    "end": "1107.240",
+    "text": " And as I said, I've only got 40 megabits."
+  },
+  "353": {
+    "start": "1107.360",
+    "end": "1111.460",
+    "text": " If that, I think it really realistically hovers around 30 megabits up."
+  },
+  "354": {
+    "start": "1111.580",
+    "end": "1114.600",
+    "text": " So even if you don't have that, I would still apply because I don't think that"
+  },
+  "355": {
+    "start": "1114.600",
+    "end": "1116.440",
+    "text": " that should be a strict requirement here."
+  },
+  "356": {
+    "start": "1116.600",
+    "end": "1119.620",
+    "text": " But I think they're obviously trying to optimize for the people"
+  },
+  "357": {
+    "start": "1119.620",
+    "end": "1122.340",
+    "text": " with the best connection so they can test this out and maybe open it up"
+  },
+  "358": {
+    "start": "1122.340",
+    "end": "1123.960",
+    "text": " to the more people later."
+  },
+  "359": {
+    "start": "1124.440",
+    "end": "1127.700",
+    "text": " Unfortunately, you have to be doxed to the Etherfire team."
+  },
+  "360": {
+    "start": "1127.940",
+    "end": "1130.620",
+    "text": " So I'm sure they're going to want to know who they're dealing with here."
+  },
+  "361": {
+    "start": "1130.860",
+    "end": "1132.300",
+    "text": " But you won't be doxed publicly."
+  },
+  "362": {
+    "start": "1132.420",
+    "end": "1135.960",
+    "text": " So if you are an anon online, you'll only be doxed to the Etherfire team."
+  },
+  "363": {
+    "start": "1136.140",
+    "end": "1138.880",
+    "text": " And there is a bunch of agreement on program terms"
+  },
+  "364": {
+    "start": "1138.880",
+    "end": "1141.240",
+    "text": " that you need to sign as well, as is natural. Right."
+  },
+  "365": {
+    "start": "1141.600",
+    "end": "1143.100",
+    "text": " But yeah, I think this is really cool."
+  },
+  "366": {
+    "start": "1143.420",
+    "end": "1144.560",
+    "text": " There's only 12 spots available."
+  },
+  "367": {
+    "start": "1144.740",
+    "end": "1148.220",
+    "text": " I should also put that information out there, too."
+  },
+  "368": {
+    "start": "1148.460",
+    "end": "1150.580",
+    "text": " But the reason why I think this is cool is obvious, right?"
+  },
+  "369": {
+    "start": "1150.840",
+    "end": "1153.920",
+    "text": " The more people solo staking, the more people we can get involved"
+  },
+  "370": {
+    "start": "1154.300",
+    "end": "1157.840",
+    "text": " by helping them along and by doing it and providing them the hardware,"
+  },
+  "371": {
+    "start": "1158.600",
+    "end": "1161.280",
+    "text": " the more I guess like those people will be able to teach other people"
+  },
+  "372": {
+    "start": "1161.280",
+    "end": "1162.000",
+    "text": " how to do it. Right."
+  },
+  "373": {
+    "start": "1162.120",
+    "end": "1165.880",
+    "text": " And the more it opens up the, I guess, like idea to solo"
+  },
+  "374": {
+    "start": "1165.880",
+    "end": "1167.060",
+    "text": " staking to more and more people."
+  },
+  "375": {
+    "start": "1167.060",
+    "end": "1170.800",
+    "text": " I've actually had the idea for quite a while to make something"
+  },
+  "376": {
+    "start": "1170.800",
+    "end": "1174.480",
+    "text": " or at least get involved with something that was similar to Avado and Dappnode"
+  },
+  "377": {
+    "start": "1174.480",
+    "end": "1177.320",
+    "text": " where you create and like a proteus, right?"
+  },
+  "378": {
+    "start": "1177.520",
+    "end": "1179.940",
+    "text": " Where you create this little box and you just commercialize."
+  },
+  "379": {
+    "start": "1179.980",
+    "end": "1181.840",
+    "text": " You basically make the Apple of staking boxes"
+  },
+  "380": {
+    "start": "1181.840",
+    "end": "1183.360",
+    "text": " where you make it look really, really good."
+  },
+  "381": {
+    "start": "1183.360",
+    "end": "1184.580",
+    "text": " You make it look really attractive."
+  },
+  "382": {
+    "start": "1184.580",
+    "end": "1186.560",
+    "text": " You make it look like a product that people actually want to own"
+  },
+  "383": {
+    "start": "1186.560",
+    "end": "1190.080",
+    "text": " and they can run it as just a normal full node or they can run it"
+  },
+  "384": {
+    "start": "1190.080",
+    "end": "1192.720",
+    "text": " with a full node with validators on it and it just sits in their house,"
+  },
+  "385": {
+    "start": "1192.780",
+    "end": "1193.940",
+    "text": " becomes a conversation piece."
+  },
+  "386": {
+    "start": "1194.220",
+    "end": "1195.340",
+    "text": " It'd be designed really cool."
+  },
+  "387": {
+    "start": "1195.660",
+    "end": "1199.860",
+    "text": " But unfortunately, I don't have the time nor the expertise in hardware to do that."
+  },
+  "388": {
+    "start": "1200.240",
+    "end": "1204.680",
+    "text": " So I'm hoping that other companies step up to the game and do that as well."
+  },
+  "389": {
+    "start": "1204.760",
+    "end": "1207.900",
+    "text": " But for now, we have Avado and Dappnode, which are great."
+  },
+  "390": {
+    "start": "1208.020",
+    "end": "1208.920",
+    "text": " There's nothing wrong with them."
+  },
+  "391": {
+    "start": "1209.160",
+    "end": "1212.000",
+    "text": " And we have initiatives like Etherfire's Operation Solo Staker"
+  },
+  "392": {
+    "start": "1212.020",
+    "end": "1214.500",
+    "text": " in order to get more people solo staking here."
+  },
+  "393": {
+    "start": "1214.640",
+    "end": "1215.700",
+    "text": " So you can go check this out."
+  },
+  "394": {
+    "start": "1216.000",
+    "end": "1218.140",
+    "text": " I'll link it in the YouTube description below."
+  },
+  "395": {
+    "start": "1219.100",
+    "end": "1223.200",
+    "text": " All right. Last up here was just a new knowledge base on staking"
+  },
+  "396": {
+    "start": "1223.200",
+    "end": "1225.860",
+    "text": " that I wanted to share from the EthStaker community."
+  },
+  "397": {
+    "start": "1226.000",
+    "end": "1230.560",
+    "text": " Now, this has been specifically made by someone called Space Cider,"
+  },
+  "398": {
+    "start": "1230.720",
+    "end": "1233.680",
+    "text": " who is an Australian dude with a big beard, I've been told."
+  },
+  "399": {
+    "start": "1233.960",
+    "end": "1235.680",
+    "text": " I'm pretty sure I've met this person before."
+  },
+  "400": {
+    "start": "1235.780",
+    "end": "1240.760",
+    "text": " I think I met him in Denver, but I wasn't able to to to kind of verify that."
+  },
+  "401": {
+    "start": "1240.880",
+    "end": "1243.520",
+    "text": " But yeah, this website is magnificent."
+  },
+  "402": {
+    "start": "1243.820",
+    "end": "1244.500",
+    "text": " This is awesome."
+  },
+  "403": {
+    "start": "1244.620",
+    "end": "1247.500",
+    "text": " This is like, you know, this reminds me of this is reminds me of ETH Hub"
+  },
+  "404": {
+    "start": "1247.500",
+    "end": "1251.220",
+    "text": " when Eric and I put together a bunch of documentation around Ethereum"
+  },
+  "405": {
+    "start": "1251.220",
+    "end": "1254.140",
+    "text": " for ETH Hub and people were loving it because they could get involved."
+  },
+  "406": {
+    "start": "1254.280",
+    "end": "1256.000",
+    "text": " They could edit it themselves on GitHub."
+  },
+  "407": {
+    "start": "1256.200",
+    "end": "1257.280",
+    "text": " They could learn all about Ethereum."
+  },
+  "408": {
+    "start": "1257.700",
+    "end": "1261.860",
+    "text": " Well, this is dedicated to staking, and it has so many kind of"
+  },
+  "409": {
+    "start": "1261.860",
+    "end": "1264.780",
+    "text": " so much information here that it's actually mind boggling."
+  },
+  "410": {
+    "start": "1264.880",
+    "end": "1266.460",
+    "text": " I was going through it before and looking through it all."
+  },
+  "411": {
+    "start": "1266.520",
+    "end": "1268.260",
+    "text": " I was like, oh, my God, this is so helpful."
+  },
+  "412": {
+    "start": "1268.460",
+    "end": "1271.440",
+    "text": " Some of the information includes, you know, like just getting started, right?"
+  },
+  "413": {
+    "start": "1271.700",
+    "end": "1273.800",
+    "text": " Help like such as my validator is offline."
+  },
+  "414": { "start": "1273.900", "end": "1274.380", "text": " What do I do?" },
+  "415": {
+    "start": "1274.440",
+    "end": "1277.240",
+    "text": " You click through to here and then you get like a straightforward answer of"
+  },
+  "416": {
+    "start": "1277.240",
+    "end": "1280.060",
+    "text": " of what to do. Go back, look at something else."
+  },
+  "417": {
+    "start": "1280.320",
+    "end": "1282.380",
+    "text": " What are the hardware requirements for staking here?"
+  },
+  "418": {
+    "start": "1282.460",
+    "end": "1284.260",
+    "text": " Look at all this information. This is crazy, right?"
+  },
+  "419": {
+    "start": "1284.300",
+    "end": "1285.540",
+    "text": " Like I was going through this before."
+  },
+  "420": {
+    "start": "1285.620",
+    "end": "1288.280",
+    "text": " I was mind blown by the amount of information that was here."
+  },
+  "421": {
+    "start": "1288.640",
+    "end": "1292.380",
+    "text": " And if you are thinking about starting staking, whether it be as a solo staker"
+  },
+  "422": {
+    "start": "1292.380",
+    "end": "1295.980",
+    "text": " or Rocketpool or any way else where you're going to run the hardware"
+  },
+  "423": {
+    "start": "1295.980",
+    "end": "1298.280",
+    "text": " and software yourself and you're a bit worried about it,"
+  },
+  "424": {
+    "start": "1298.560",
+    "end": "1300.240",
+    "text": " I mean, just hit up this website, right?"
+  },
+  "425": {
+    "start": "1300.400",
+    "end": "1303.340",
+    "text": " I'll link this in the YouTube description for you below to check out."
+  },
+  "426": {
+    "start": "1303.700",
+    "end": "1305.300",
+    "text": " But just hit this up and read through it."
+  },
+  "427": {
+    "start": "1305.340",
+    "end": "1307.420",
+    "text": " And you have like pretty much all of your questions answered."
+  },
+  "428": {
+    "start": "1307.480",
+    "end": "1310.360",
+    "text": " They're even kind of answering questions around downtime."
+  },
+  "429": {
+    "start": "1310.500",
+    "end": "1311.580",
+    "text": " Are you worried about downtime?"
+  },
+  "430": {
+    "start": "1311.960",
+    "end": "1313.680",
+    "text": " Well, read here and you won't be worried anymore."
+  },
+  "431": {
+    "start": "1313.760",
+    "end": "1315.280",
+    "text": " Are you worried about slashing? Read this."
+  },
+  "432": {
+    "start": "1315.340",
+    "end": "1316.180",
+    "text": " You won't be worried anymore."
+  },
+  "433": {
+    "start": "1316.840",
+    "end": "1320.100",
+    "text": " And then I mean seriously, every question that I could think of"
+  },
+  "434": {
+    "start": "1320.100",
+    "end": "1321.900",
+    "text": " with regards to staking has been answered here."
+  },
+  "435": {
+    "start": "1322.020",
+    "end": "1325.080",
+    "text": " And of course, as I said, you can also edit this on GitHub yourself"
+  },
+  "436": {
+    "start": "1325.080",
+    "end": "1327.260",
+    "text": " if you feel like there could be more information added here."
+  },
+  "437": {
+    "start": "1327.620",
+    "end": "1330.440",
+    "text": " And I'm sure that there is going to be more information added over time"
+  },
+  "438": {
+    "start": "1330.440",
+    "end": "1333.020",
+    "text": " by Space Cider and Co. here."
+  },
+  "439": {
+    "start": "1333.580",
+    "end": "1337.360",
+    "text": " And Eridian, I believe, is also involved in this, doing all the work here."
+  },
+  "440": {
+    "start": "1337.520",
+    "end": "1339.160",
+    "text": " So this is just absolutely great."
+  },
+  "441": {
+    "start": "1339.260",
+    "end": "1342.300",
+    "text": " And on top of this, they're actually planning to get this translated"
+  },
+  "442": {
+    "start": "1342.300",
+    "end": "1343.540",
+    "text": " into different languages."
+  },
+  "443": {
+    "start": "1343.660",
+    "end": "1346.140",
+    "text": " So right now it's available in English and Spanish,"
+  },
+  "444": {
+    "start": "1346.360",
+    "end": "1349.260",
+    "text": " but they are looking for volunteers to translate this into other languages."
+  },
+  "445": {
+    "start": "1349.360",
+    "end": "1351.580",
+    "text": " So if that's something that you would like to get involved with,"
+  },
+  "446": {
+    "start": "1351.880",
+    "end": "1352.940",
+    "text": " you can contact them."
+  },
+  "447": {
+    "start": "1353.000",
+    "end": "1354.660",
+    "text": " I believe that there is. Yes, here."
+  },
+  "448": {
+    "start": "1354.780",
+    "end": "1357.120",
+    "text": " There is a get involved section where you can contact them."
+  },
+  "449": {
+    "start": "1357.180",
+    "end": "1357.980",
+    "text": " You can join the discord"
+  },
+  "450": {
+    "start": "1357.980",
+    "end": "1362.000",
+    "text": " and you can also visit the how to contribute section here"
+  },
+  "451": {
+    "start": "1362.000",
+    "end": "1363.700",
+    "text": " for full details on that there."
+  },
+  "452": {
+    "start": "1363.740",
+    "end": "1366.960",
+    "text": " So I just wanted to shout out this because it is one of the best,"
+  },
+  "453": {
+    "start": "1366.980",
+    "end": "1370.480",
+    "text": " if not the best, staking resource websites that I've come across."
+  },
+  "454": {
+    "start": "1370.780",
+    "end": "1372.600",
+    "text": " So big shout out to the Ethstaker community."
+  },
+  "455": {
+    "start": "1372.740",
+    "end": "1374.260",
+    "text": " Big shout out to Space Cider and Eridian."
+  },
+  "456": {
+    "start": "1374.680",
+    "end": "1375.600",
+    "text": " Thank you for doing this."
+  },
+  "457": {
+    "start": "1375.680",
+    "end": "1379.160",
+    "text": " I'm going to be using this and referring to it a lot going forward,"
+  },
+  "458": {
+    "start": "1379.220",
+    "end": "1382.100",
+    "text": " especially obviously as someone who is very involved with staking,"
+  },
+  "459": {
+    "start": "1382.140",
+    "end": "1384.340",
+    "text": " but also as someone who is a big advocate for staking"
+  },
+  "460": {
+    "start": "1384.340",
+    "end": "1387.580",
+    "text": " and wanting to just send people a page that they can read"
+  },
+  "461": {
+    "start": "1387.580",
+    "end": "1390.520",
+    "text": " to answer their questions without me having to repeat myself a million times."
+  },
+  "462": {
+    "start": "1390.660",
+    "end": "1392.040",
+    "text": " This is an amazing resource."
+  },
+  "463": {
+    "start": "1392.200",
+    "end": "1395.260",
+    "text": " So kudos to everyone involved with getting this off the ground."
+  },
+  "464": {
+    "start": "1396.280",
+    "end": "1400.460",
+    "text": " All right, moving on, OP Labs has put together a resource"
+  },
+  "465": {
+    "start": "1400.460",
+    "end": "1406.240",
+    "text": " for OP's mainnet upgrade called, sorry, for OP's next upgrade called Bedrock."
+  },
+  "466": {
+    "start": "1406.380",
+    "end": "1408.800",
+    "text": " So it's fast approaching to be deployed to mainnet here."
+  },
+  "467": {
+    "start": "1408.860",
+    "end": "1411.280",
+    "text": " And they put together a resource that is the source of truth"
+  },
+  "468": {
+    "start": "1411.280",
+    "end": "1415.060",
+    "text": " for the upgrade timing, project status, and relevant upgrade guides."
+  },
+  "469": {
+    "start": "1415.140",
+    "end": "1418.580",
+    "text": " You can check it out here if you're interested in that here being the link"
+  },
+  "470": {
+    "start": "1418.580",
+    "end": "1420.040",
+    "text": " that I'll link in the YouTube description below."
+  },
+  "471": {
+    "start": "1420.220",
+    "end": "1422.480",
+    "text": " It is also available at this URL,"
+  },
+  "472": {
+    "start": "1422.840",
+    "end": "1426.880",
+    "text": " optimism.io/bedrock-upgrade."
+  },
+  "473": {
+    "start": "1427.120",
+    "end": "1428.500",
+    "text": " But as I said, I'll link it."
+  },
+  "474": {
+    "start": "1428.500",
+    "end": "1431.480",
+    "text": " And it's got all the relevant information in here for you."
+  },
+  "475": {
+    "start": "1431.580",
+    "end": "1435.040",
+    "text": " Now, this information, I believe, is for developers,"
+  },
+  "476": {
+    "start": "1435.200",
+    "end": "1438.000",
+    "text": " for people building on top of Optimism, for people just interested in the network"
+  },
+  "477": {
+    "start": "1438.000",
+    "end": "1440.580",
+    "text": " and such stuff like that."
+  },
+  "478": {
+    "start": "1440.580",
+    "end": "1442.900",
+    "text": " But there is currently no set date for Bedrock."
+  },
+  "479": {
+    "start": "1443.080",
+    "end": "1447.360",
+    "text": " The Bedrock upgrade, I have speculated that is probably going to be released in May."
+  },
+  "480": {
+    "start": "1447.880",
+    "end": "1449.760",
+    "text": " We'll have to see if they give a date."
+  },
+  "481": {
+    "start": "1449.880",
+    "end": "1451.800",
+    "text": " There could be as far as June."
+  },
+  "482": {
+    "start": "1451.880",
+    "end": "1454.120",
+    "text": " I don't know, but we'll have to keep tabs on that."
+  },
+  "483": {
+    "start": "1454.160",
+    "end": "1456.680",
+    "text": " But you can keep tabs on that yourself by going to this link,"
+  },
+  "484": {
+    "start": "1456.860",
+    "end": "1459.540",
+    "text": " which I'll share in the YouTube description below."
+  },
+  "485": {
+    "start": "1460.540",
+    "end": "1463.820",
+    "text": " All right, last up here, we have an update from Dune Analytics."
+  },
+  "486": {
+    "start": "1464.060",
+    "end": "1470.180",
+    "text": " So they've announced some major progress on the Dune API which is now live,"
+  },
+  "487": { "start": "1470.180", "end": "1471.040", "text": " for all users." },
+  "488": {
+    "start": "1471.380",
+    "end": "1475.080",
+    "text": " They've revamped subscription plans and more power"
+  },
+  "489": { "start": "1475.080", "end": "1476.420", "text": " for free users." },
+  "490": {
+    "start": "1477.040",
+    "end": "1478.860",
+    "text": " So here's how. And there's a thread here on this."
+  },
+  "491": {
+    "start": "1479.080",
+    "end": "1481.940",
+    "text": " So the Dune API, as I said, is available for all."
+  },
+  "492": {
+    "start": "1482.060",
+    "end": "1484.260",
+    "text": " And you can go play around with that if you're interested in that."
+  },
+  "493": {
+    "start": "1484.880",
+    "end": "1487.100",
+    "text": " There are subscription plans available, too."
+  },
+  "494": {
+    "start": "1487.160",
+    "end": "1491.780",
+    "text": " You can see here plus and premium plans that allow you to query and track faster"
+  },
+  "495": {
+    "start": "1491.780",
+    "end": "1493.860",
+    "text": " and get involved and build stuff there."
+  },
+  "496": {
+    "start": "1494.340",
+    "end": "1496.580",
+    "text": " There is a credit system as well that's been integrated"
+  },
+  "497": {
+    "start": "1496.580",
+    "end": "1501.000",
+    "text": " and a bunch of other features, too, which you can read in this thread here,"
+  },
+  "498": {
+    "start": "1501.020",
+    "end": "1502.640",
+    "text": " which I'll link in the YouTube description below."
+  },
+  "499": {
+    "start": "1502.760",
+    "end": "1503.280",
+    "text": " And this is great."
+  },
+  "500": {
+    "start": "1503.380",
+    "end": "1505.960",
+    "text": " I mean, Dune Analytics, as you guys know, I mean, I should disclose"
+  },
+  "501": {
+    "start": "1505.960",
+    "end": "1508.880",
+    "text": " I'm an investor in them, but you guys know that is one of my favorite analytics"
+  },
+  "502": {
+    "start": "1508.880",
+    "end": "1510.620",
+    "text": " websites out there."
+  },
+  "503": {
+    "start": "1510.760",
+    "end": "1513.160",
+    "text": " I love following along with all the dashboards that people create."
+  },
+  "504": {
+    "start": "1513.520",
+    "end": "1517.140",
+    "text": " I love following along with all the data that is just available to us"
+  },
+  "505": {
+    "start": "1517.140",
+    "end": "1519.020",
+    "text": " because Ethereum is transparent, right?"
+  },
+  "506": {
+    "start": "1519.080",
+    "end": "1523.320",
+    "text": " And we get all this data for both the Ethereum layer one and Ethereum layer two"
+  },
+  "507": {
+    "start": "1523.320",
+    "end": "1524.540",
+    "text": " and everything that surrounds that."
+  },
+  "508": {
+    "start": "1524.540",
+    "end": "1528.280",
+    "text": " It's just a great way to keep up with watching like the growth of these networks,"
+  },
+  "509": {
+    "start": "1528.280",
+    "end": "1530.440",
+    "text": " the adoption of them, all that good stuff there."
+  },
+  "510": {
+    "start": "1530.600",
+    "end": "1532.460",
+    "text": " So you definitely can go check this out."
+  },
+  "511": {
+    "start": "1533.040",
+    "end": "1536.560",
+    "text": " I'll link it in the YouTube description below for you to do so."
+  },
+  "512": {
+    "start": "1536.700",
+    "end": "1537.940",
+    "text": " All right. I have a few minutes left."
+  },
+  "513": {
+    "start": "1538.020",
+    "end": "1543.080",
+    "text": " One thing I wanted to talk about today, not particularly regarding the market,"
+  },
+  "514": {
+    "start": "1543.080",
+    "end": "1545.720",
+    "text": " but also just a funny thing that I've noticed."
+  },
+  "515": {
+    "start": "1546.020",
+    "end": "1550.520",
+    "text": " So post Shappella, obviously, the price of ETH went up a fair bit."
+  },
+  "516": {
+    "start": "1550.580",
+    "end": "1553.060",
+    "text": " I think it went to like twenty two hundred or something like that."
+  },
+  "517": {
+    "start": "1553.140",
+    "end": "1555.920",
+    "text": " Then it came back down to like eighteen hundred or something."
+  },
+  "518": {
+    "start": "1556.020",
+    "end": "1557.260",
+    "text": " And now it's back up to like what?"
+  },
+  "519": {
+    "start": "1557.380",
+    "end": "1558.720",
+    "text": " Let me have a look at the price right now."
+  },
+  "520": {
+    "start": "1558.780",
+    "end": "1559.380",
+    "text": " What is it like?"
+  },
+  "521": {
+    "start": "1559.460",
+    "end": "1561.240",
+    "text": " Almost 2K it's like nineteen sixty five."
+  },
+  "522": {
+    "start": "1561.320",
+    "end": "1562.440",
+    "text": " Right. At that time of recording."
+  },
+  "523": {
+    "start": "1562.520",
+    "end": "1566.860",
+    "text": " What I wanted to quickly say was that I've said it before."
+  },
+  "524": {
+    "start": "1566.960",
+    "end": "1569.840",
+    "text": " I said this months ago that I would, on the Refuel."
+  },
+  "525": {
+    "start": "1570.020",
+    "end": "1573.080",
+    "text": " I would say if I thought that we were starting a new bull market again,"
+  },
+  "526": {
+    "start": "1573.220",
+    "end": "1575.480",
+    "text": " I could be wrong when I say that."
+  },
+  "527": {
+    "start": "1575.540",
+    "end": "1578.420",
+    "text": " But like I am not going to say it until I'm pretty confident"
+  },
+  "528": {
+    "start": "1578.420",
+    "end": "1579.980",
+    "text": " that a new bull market is back and"
+  },
+  "529": {
+    "start": "1580.120",
+    "end": "1583.320",
+    "text": " It's probably going to be obvious to people at the point that I say it,"
+  },
+  "530": {
+    "start": "1583.360",
+    "end": "1585.320",
+    "text": " but I'm sticking to that."
+  },
+  "531": {
+    "start": "1585.700",
+    "end": "1588.060",
+    "text": " But what's happening right now, and I just want to reiterate this for people"
+  },
+  "532": {
+    "start": "1588.060",
+    "end": "1591.540",
+    "text": " because I had a few people ask me, we're in what people call a crab market,"
+  },
+  "533": {
+    "start": "1591.600",
+    "end": "1596.620",
+    "text": " which is basically a sideways market where the price can go from like a thousand"
+  },
+  "534": {
+    "start": "1596.620",
+    "end": "1600.080",
+    "text": " to over two thousand, back to like a thousand."
+  },
+  "535": {
+    "start": "1600.220",
+    "end": "1600.980",
+    "text": " Right. It can do that."
+  },
+  "536": {
+    "start": "1601.040",
+    "end": "1604.640",
+    "text": " Like don't don't get me wrong there, but it doesn't actually mean anything."
+  },
+  "537": {
+    "start": "1604.640",
+    "end": "1607.820",
+    "text": " Right. What it's showing is that the market right now"
+  },
+  "538": {
+    "start": "1607.820",
+    "end": "1610.640",
+    "text": " is just existing of the same players that have been around for quite a while."
+  },
+  "539": {
+    "start": "1610.940",
+    "end": "1611.760",
+    "text": " People are slowly buying."
+  },
+  "540": {
+    "start": "1611.860",
+    "end": "1614.080",
+    "text": " The long term investors are buying, their stacking, their just yeah and,"
+  },
+  "541": {
+    "start": "1614.180",
+    "end": "1614.720",
+    "text": " all that stuff there."
+  },
+  "542": {
+    "start": "1614.860",
+    "end": "1617.940",
+    "text": " Traders are trying to make money anywhere they can with any volatility"
+  },
+  "543": { "start": "1617.940", "end": "1618.560", "text": " that they see." },
+  "544": {
+    "start": "1618.640",
+    "end": "1621.480",
+    "text": " That's why you see these these kind of moves playing out,"
+  },
+  "545": {
+    "start": "1621.500",
+    "end": "1624.020",
+    "text": " because that's volatility that traders like to take advantage of."
+  },
+  "546": {
+    "start": "1624.100",
+    "end": "1627.580",
+    "text": " But in terms of like a long term investor mindset on this sort of stuff,"
+  },
+  "547": {
+    "start": "1627.980",
+    "end": "1631.240",
+    "text": " the opportunity for you is to just DCA."
+  },
+  "548": {
+    "start": "1631.340",
+    "end": "1633.060",
+    "text": " Right. I'm not trying to give investment advice here,"
+  },
+  "549": {
+    "start": "1633.080",
+    "end": "1636.600",
+    "text": " but I've had people ask me a lot and I figured I just cover it on the Refuel."
+  },
+  "550": {
+    "start": "1636.740",
+    "end": "1639.200",
+    "text": " I mean, if you're still here, if you're a long term investor,"
+  },
+  "551": {
+    "start": "1639.200",
+    "end": "1643.300",
+    "text": " then you shouldn't be worried about these day to day, week to week moves at all."
+  },
+  "552": {
+    "start": "1643.400",
+    "end": "1645.280",
+    "text": " I mean, it doesn't really mean anything at the end of the day."
+  },
+  "553": {
+    "start": "1645.340",
+    "end": "1647.100",
+    "text": " Right. It could be at twenty five hundred next week"
+  },
+  "554": {
+    "start": "1647.100",
+    "end": "1649.060",
+    "text": " and then it could be at fifteen hundred the week after. Right."
+  },
+  "555": {
+    "start": "1649.320",
+    "end": "1652.700",
+    "text": " Like if you're DCAing in, if you're averaging out your buy price,"
+  },
+  "556": {
+    "start": "1652.800",
+    "end": "1655.760",
+    "text": " that's all you can really focus on because you're not going to catch"
+  },
+  "557": {
+    "start": "1655.760",
+    "end": "1657.020",
+    "text": " the the local bottom."
+  },
+  "558": {
+    "start": "1657.100",
+    "end": "1659.800",
+    "text": " You're not going to catch the the you know, not going to sell the local top,"
+  },
+  "559": {
+    "start": "1659.800",
+    "end": "1661.460",
+    "text": " because if you start doing that, you're a trader."
+  },
+  "560": {
+    "start": "1661.520",
+    "end": "1663.380",
+    "text": " You're no longer a long term investor."
+  },
+  "561": {
+    "start": "1663.800",
+    "end": "1666.300",
+    "text": " So just something that I wanted to clarify for people, because as I said,"
+  },
+  "562": {
+    "start": "1666.300",
+    "end": "1667.960",
+    "text": " I've been getting a lot of people pinging me about it."
+  },
+  "563": {
+    "start": "1668.040",
+    "end": "1669.600",
+    "text": " And that is my honest answer."
+  },
+  "564": {
+    "start": "1669.720",
+    "end": "1674.600",
+    "text": " And as I said, I will tell you when I think the bull market is back,"
+  },
+  "565": {
+    "start": "1674.600",
+    "end": "1676.040",
+    "text": " when I am very, very confident in it."
+  },
+  "566": {
+    "start": "1676.080",
+    "end": "1676.960",
+    "text": " But we're not there yet."
+  },
+  "567": {
+    "start": "1677.040",
+    "end": "1678.780",
+    "text": " We're very far away from that, actually."
+  },
+  "568": {
+    "start": "1679.220",
+    "end": "1681.640",
+    "text": " There is, I think I mentioned this before on the Refuel,"
+  },
+  "569": {
+    "start": "1681.720",
+    "end": "1685.240",
+    "text": " There are two types of capitulation when it comes to markets,"
+  },
+  "570": {
+    "start": "1685.280",
+    "end": "1686.860",
+    "text": " especially the crypto market."
+  },
+  "571": {
+    "start": "1687.000",
+    "end": "1690.200",
+    "text": " There is price based capitulation, which I believe has already happened."
+  },
+  "572": {
+    "start": "1690.320",
+    "end": "1692.940",
+    "text": " I believe ETH bottomed at 880 in June of last year."
+  },
+  "573": {
+    "start": "1692.960",
+    "end": "1696.960",
+    "text": " And I believe BTC bottomed at what was it like 14000 something in November"
+  },
+  "574": {
+    "start": "1696.960",
+    "end": "1698.140",
+    "text": " after the FTX collapse."
+  },
+  "575": {
+    "start": "1698.260",
+    "end": "1700.880",
+    "text": " I don't believe we're going to see those prices again."
+  },
+  "576": {
+    "start": "1701.000",
+    "end": "1704.380",
+    "text": " And, you know, if I'm wrong on that, whatever."
+  },
+  "577": {
+    "start": "1704.480",
+    "end": "1706.940",
+    "text": " But like I'm just giving, I'm just putting out my belief here."
+  },
+  "578": {
+    "start": "1706.960",
+    "end": "1708.180",
+    "text": " As I said, it's not investment advice."
+  },
+  "579": {
+    "start": "1708.240",
+    "end": "1710.820",
+    "text": " I'm not saying it's 100% the bottom, but I believe it is."
+  },
+  "580": {
+    "start": "1711.200",
+    "end": "1714.340",
+    "text": " Secondly, what we have to meet is time based capitulation."
+  },
+  "581": {
+    "start": "1714.860",
+    "end": "1718.240",
+    "text": " Now, for BTC, it hasn't actually been very long since its bottom. November to April"
+  },
+  "582": {
+    "start": "1718.240",
+    "end": "1719.960",
+    "text": " is only a few months, right?"
+  },
+  "583": {
+    "start": "1719.980",
+    "end": "1721.620",
+    "text": " It's not a very long time. For ETH"
+  },
+  "584": {
+    "start": "1721.620",
+    "end": "1726.820",
+    "text": " It has been longer, but I think ETH, you know, it did go down to like a thousand"
+  },
+  "585": {
+    "start": "1726.820",
+    "end": "1730.240",
+    "text": " dollars after the FTX collapse or something like that or 1100."
+  },
+  "586": {
+    "start": "1730.320",
+    "end": "1731.480",
+    "text": " I can't remember exactly what it was."
+  },
+  "587": {
+    "start": "1731.800",
+    "end": "1736.040",
+    "text": " If you want to count that from when BTC actually bottoms, there is still"
+  },
+  "588": {
+    "start": "1736.040",
+    "end": "1739.600",
+    "text": " if you want to if you want to say when is BTC going back to its new all time high?"
+  },
+  "589": {
+    "start": "1740.000",
+    "end": "1743.460",
+    "text": " You could say there is still, at the very least, another 18 months left"
+  },
+  "590": {
+    "start": "1743.460",
+    "end": "1747.600",
+    "text": " of this kind of time based capitulation or this accumulation that we see"
+  },
+  "591": {
+    "start": "1747.600",
+    "end": "1751.200",
+    "text": " for BTC and probably for ETH as well. Right?"
+  },
+  "592": {
+    "start": "1751.760",
+    "end": "1754.520",
+    "text": " That's why people will say, oh, well, the bull market will be back,"
+  },
+  "593": {
+    "start": "1754.600",
+    "end": "1756.880",
+    "text": " you know, probably late next year, late 2024."
+  },
+  "594": {
+    "start": "1757.160",
+    "end": "1759.360",
+    "text": " That could be the way it plays out if it plays out similarly"
+  },
+  "595": {
+    "start": "1759.360",
+    "end": "1760.680",
+    "text": " to what we've seen in the past."
+  },
+  "596": {
+    "start": "1761.240",
+    "end": "1762.640",
+    "text": " So I don't know how it's going to play out."
+  },
+  "597": {
+    "start": "1762.820",
+    "end": "1765.800",
+    "text": " But that's exactly why I've told you guys that I don't believe"
+  },
+  "598": {
+    "start": "1765.800",
+    "end": "1766.900",
+    "text": " we're anywhere near a bull market."
+  },
+  "599": {
+    "start": "1767.120",
+    "end": "1770.320",
+    "text": " I'm not going to say that we're in a bull market until I'm very confident we are."
+  },
+  "600": {
+    "start": "1770.460",
+    "end": "1774.960",
+    "text": " And one of the signals that I use is how long have we been in this kind of like"
+  },
+  "601": {
+    "start": "1774.960",
+    "end": "1779.060",
+    "text": " sideways crab market for. We haven't been in it near long enough yet."
+  },
+  "602": {
+    "start": "1779.560",
+    "end": "1782.100",
+    "text": " And any kind of price movement that you see this year, I believe,"
+  },
+  "603": {
+    "start": "1782.460",
+    "end": "1786.160",
+    "text": " is just due to that kind of like ranging, that trader volatility,"
+  },
+  "604": {
+    "start": "1786.440",
+    "end": "1789.400",
+    "text": " that kind of market trying to figure out what it wants to do sort of thing."
+  },
+  "605": {
+    "start": "1789.680",
+    "end": "1793.000",
+    "text": " And if we're going to enter a bull market, it's probably not going to happen"
+  },
+  "606": {
+    "start": "1793.000",
+    "end": "1795.120",
+    "text": " until sometime next year."
+  },
+  "607": {
+    "start": "1795.260",
+    "end": "1798.220",
+    "text": " As I said, not investment advice, just general kind of clarity"
+  },
+  "608": {
+    "start": "1798.220",
+    "end": "1800.420",
+    "text": " for people who have been asking me about those sorts of things."
+  },
+  "609": {
+    "start": "1800.520",
+    "end": "1802.900",
+    "text": " But on that note, that's going to be it for today."
+  },
+  "610": {
+    "start": "1803.100",
+    "end": "1804.720",
+    "text": " So thank everyone for listening and watching."
+  },
+  "611": {
+    "start": "1804.860",
+    "end": "1806.240",
+    "text": " Be sure to subscribe to the channel if you haven't yet."
+  },
+  "612": {
+    "start": "1806.320",
+    "end": "1807.040",
+    "text": " Give the video a thumbs up."
+  },
+  "613": {
+    "start": "1807.380",
+    "end": "1810.460",
+    "text": " Subscribe to the newsletter, join the Discord channel, and I'll catch you all tomorrow."
+  },
+  "614": {
+    "start": "1810.740",
+    "end": "1811.220",
+    "text": " Thanks, everyone."
+  }
+}

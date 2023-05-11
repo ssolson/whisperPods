@@ -1,13 +1,10 @@
 import { useEffect, useState } from "react";
 import DataTable from "./DataTable";
+import { Select, Divider, Image } from "antd";
 
 export default function Home() {
   const [data, setData] = useState([]);
   const [selectedPodcast, setSelectedPodcast] = useState("");
-  const [currentTranscript, setCurrentTranscript] = useState({
-    transcript: null,
-    execution_time: null,
-  });
   const [transcribing, setTranscribing] = useState(false);
 
   useEffect(() => {
@@ -29,88 +26,75 @@ export default function Home() {
     fetchData();
   }, []);
 
-  const handleClick = () => {
-    console.log(data[0]["Episode Name"]);
+  const onChange = (value) => {
+    setSelectedPodcast(value);
   };
 
-  async function transcribeAudio(filename, model) {
-    setTranscribing(true); // Start transcribing
-    const response = await fetch("/api/transcribe", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        filename: filename,
-        model: model,
-      }),
-    });
+  const onSearch = (value) => {
+    console.log("search:", value);
+  };
 
-    if (!response.ok) {
-      const message = `An error occurred: ${response.statusText}`;
-      throw new Error(message);
-    }
+  const selectedPodcastData = data.find((item) => item._id === selectedPodcast);
 
-    const data = await response.json();
-    setCurrentTranscript({
-      transcript: data.transcript,
-      execution_time: data.execution_time,
-    });
-
-    setTranscribing(false); // End transcribing
-  }
+  const latestEpisode = data[data.length - 1] || null;
 
   return (
-    <div className="grid-cols auto grid h-screen w-full bg-gray-900 text-white">
-      <div className="mx-auto my-auto h-1/4 w-1/2">
-        <h1 className="text-3xl text-white">Episodes</h1>
-        <br></br>
-        <div className="flex flex-wrap">
-          {data.map((index) => (
-            <div key={index} className="flex flex-col">
-              {index["Episode Name"].map((episode, index) => (
-                <div
-                  key={index}
-                  className="text-white"
-                  onClick={() => handleClick(index)}
-                >
-                  {episode}
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
-      <div className="flex h-12 w-full justify-center">
-        <button
-          className="mx-auto rounded-lg border border-white bg-orange-300 bg-opacity-20 p-2 transition-all duration-300 hover:bg-orange-600 hover:bg-opacity-80"
-          onClick={() => {
-            transcribeAudio(
-              `C:\\Users\\fuck\\Desktop\\cwcode\\whisper.pods\\whisperPods\\python-backend\\podcast\\thedailygwei\\2023\\2023.04.26 EthStaker Knowledge Base, Market chat and more - The Daily Gwei Refuel #574 - Ethereum Updates.mp3`,
-              "tiny.en"
-            );
-          }}
-        >
-          Transcribe
-        </button>
-      </div>
-      <div className="h-full overflow-scroll overflow-y-auto bg-black p-14">
-        <div className={transcribing ? "loading-text " : ""}>
-          {currentTranscript.transcript ? (
-            <div className="flex flex-col justify-center">
-              <div className="text-yellow-400">
-                Execution time: {Math.floor(currentTranscript.execution_time)}{" "}
-                seconds.
+    <div className="grid-cols auto grid h-full min-h-screen w-full bg-gray-900 text-white">
+      <div className="flex w-full flex-col flex-wrap">
+        {data.length > 1 ? (
+          <div className="flex h-full w-full justify-between">
+            <div className="mt-20 flex w-full flex-col flex-wrap">
+              <div className="m-4 mx-auto flex flex-col justify-center border p-4 text-center">
+                <p className="font-semibold">Total Episodes</p>
+                <Divider className="my-2 bg-white" />
+                <p className="text-3xl font-bold">{data.length}</p>
               </div>
-              <br></br>
-              <div>{currentTranscript.transcript.text}</div>
+              <Select
+                className="mx-auto w-64"
+                showSearch
+                placeholder="Select an episode"
+                optionFilterProp="children"
+                onChange={onChange}
+                onSearch={onSearch}
+                filterOption={(input, option) =>
+                  (option?.label ?? "")
+                    .toLowerCase()
+                    .includes(input.toLowerCase())
+                }
+                options={data.map((item) => ({
+                  value: item._id,
+                  label: item.item_title,
+                }))}
+              />
+              <div className="mx-auto w-full p-12">
+                {selectedPodcastData?.yt_transcript?.map((entry) => (
+                  <div key={entry.start} className="w-full">
+                    <p>{entry.text}</p>
+                  </div>
+                ))}
+              </div>
             </div>
-          ) : transcribing ? (
-            "Transcribing. This could take a while..."
-          ) : (
-            ""
-          )}
-        </div>
+            <div className="h-full w-1/5 border text-center">
+              <h1 className="p-4 pb-1 text-xl font-semibold">Latest Episode</h1>
+              <p className="">
+                {latestEpisode?.release_date?.substring(0, 10)}
+              </p>
+              <Divider className="mb-0 mt-2 bg-white" />
+              <Image
+                src={latestEpisode?.image_url}
+                alt="Latest episode"
+                className="w-full"
+              />
+              <div className="p-4 text-center">
+                <p className="text-lg">{latestEpisode?.item_title}</p>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="mx-auto mt-20 flex flex-col flex-wrap">
+            loading...
+          </div>
+        )}
       </div>
     </div>
   );
