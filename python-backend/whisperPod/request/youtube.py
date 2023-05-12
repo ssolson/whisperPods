@@ -4,6 +4,8 @@ import os
 import time
 import re
 from youtube_transcript_api import YouTubeTranscriptApi
+import pytube
+from pytube import YouTube
 
 
 def _get_video_ids(api_key, playlist_id):
@@ -140,3 +142,37 @@ def fetch_metadata(playlist_id, output_file, api_key):
 
     print("Completed fetching video metadata.")
     return video_data_list
+
+
+def download_and_convert_audio(yt, output_path, filename=None):
+    """Helper function to download and convert audio from a YouTube video."""
+    try:
+        audio_stream = yt.streams.filter(only_audio=True).first()
+    except pytube.exceptions.AgeRestrictedError:
+        print(f"Skipping age-restricted video: {yt.video_id}")
+        return
+
+    print(f"Downloading: {yt.title}")
+    download_filename = audio_stream.download(output_path, filename=filename)
+    new_filename = download_filename.replace(".mp4", ".mp3")
+    os.rename(download_filename, new_filename)
+    print(f"Downloaded: {new_filename}")
+    time.sleep(1.5)  # wait 1.5 seconds before the next request
+
+
+def download_audio(video_id, output_path='.'):
+    if isinstance(video_id, list):
+        for vid in video_id:
+            yt = YouTube(f'https://www.youtube.com/watch?v={vid}')
+            download_and_convert_audio(yt, output_path)
+    elif isinstance(video_id, dict):
+        video_id_dict = {str(k): v for k, v in video_id.items()}
+        for filename, vid in video_id_dict.items():
+            yt = YouTube(f'https://www.youtube.com/watch?v={vid}')
+            filename = filename+".mp3"
+            download_and_convert_audio(yt, output_path, filename=filename)
+    elif isinstance(video_id, str):
+        yt = YouTube(f'https://www.youtube.com/watch?v={video_id}')
+        download_and_convert_audio(yt, output_path)
+    else:
+        print("Invalid video_id. It must be a string, a list of strings, or a dictionary.")

@@ -149,6 +149,10 @@ del combined_df['premium_state']
 # Replace NaT values with None
 combined_df = combined_df.replace({pd.NaT: None})
 
+# Write combined_df to a JSON file
+combined_df.to_json('combined_df.json', orient='records', date_format='iso')
+
+
 ipdb.set_trace()
 
 # Delete all existing documents in the collection

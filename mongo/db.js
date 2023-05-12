@@ -15,11 +15,15 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
-    // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
-    console.log(
-      "Pinged your deployment. You successfully connected to MongoDB!"
-    );
+    console.log("Connected to MongoDB!");
+
+    // Specify the database and collection
+    const db = client.db("whisperPods");
+    const collection = db.collection("thedailygwei");
+
+    // Find a single document
+    const data = await collection.findOne({});
+    console.log(data);
   } finally {
     // Ensures that the client will close when you finish/error
     await client.close();

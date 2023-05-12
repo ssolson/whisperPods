@@ -18,7 +18,7 @@ handler.use(async (req, res, next) => {
 handler.get(async (req, res) => {
   try {
     const collection = req.db.collection("thedailygwei");
-    const data = await collection.find({}).toArray();
+    const data = await collection.findOne({}).toArray();
     res.status(200).json(data);
   } catch (error) {
     res.status(500).json({ error: error.message });
