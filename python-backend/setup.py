@@ -23,6 +23,8 @@ DEPENDENCIES = [
     "getpodcast",
     "openai-whisper",
     "pymongo",
+    "youtube_transcript_api",
+    "pytube"
     ]
 VERSION="0.0.1"
 

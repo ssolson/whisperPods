@@ -9,7 +9,7 @@ directory and its subdirectories.
 import os
 import fnmatch
 
-def find_mp3_files(path):
+def find_mp3_files(path, recursive=True):
     """
     Searches for MP3 files in the specified directory and its subdirectories.
     
@@ -17,6 +17,9 @@ def find_mp3_files(path):
     ----------
     path : str
         The root directory to search for MP3 files.
+    
+    recursive : bool, default=True
+        Whether to search recursively in subdirectories.
     
     Returns
     -------
@@ -30,9 +33,14 @@ def find_mp3_files(path):
     """
     mp3_files = []
 
-    for root, _, filenames in os.walk(path):
-        for filename in fnmatch.filter(filenames, "*.mp3"):
-            mp3_files.append(os.path.join(root, filename))
+    if recursive:
+        for root, _, filenames in os.walk(path):
+            for filename in fnmatch.filter(filenames, "*.mp3"):
+                mp3_files.append(os.path.join(root, filename))
+    else:
+        for filename in os.listdir(path):
+            if fnmatch.fnmatch(filename, "*.mp3"):
+                mp3_files.append(os.path.join(path, filename))
 
     return mp3_files
 
