@@ -17,9 +17,15 @@ handler.use(async (req, res, next) => {
 
 handler.get(async (req, res) => {
   try {
-    const collection = req.db.collection("thedailygwei");
-    const data = await collection.findOne({}).toArray();
-    res.status(200).json(data);
+    const collection = req.db.collection("thedailygweiRecap");
+    // const data = await collection.findOne({}).toArray();
+    // const data = await collection.findOne({}).cursor().toArray();
+    const data = await collection.findOne({});
+
+    console.log(data["episode_data"]);
+
+    // res.status(200).json(data);
+    res.status(200).json(data["episode_data"]);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

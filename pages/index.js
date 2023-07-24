@@ -14,6 +14,7 @@ export default function Home() {
     async function fetchData() {
       try {
         const res = await fetch("/api/data");
+        console.log("Response:", res);
         if (!res.ok) {
           const error = await res.json();
           throw new Error(error.error);
