@@ -1,0 +1,5 @@
+pandas
+ipdb
+whisper
+getpodcast
+pymongo

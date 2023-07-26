@@ -26,7 +26,6 @@ yarn-error.log*
 
 # local env files
 .env*.local
-*.env
 
 # vercel
 .vercel
@@ -34,19 +33,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-#python 
-*.egg-info
-**/__pycache__/
-**/_build/
-**/build/
-**/dist/
-**/mhkit.egg-info/
-**/.ipynb_checkpoints
-**/tests/*.png
-**/workspace/data_peetz/
-**/workspace/data_mooring/
-**/workspace/data_GE/
-**/.vscode/
-python-backend/podcast/
-**/playground/**
+.contentlayer
