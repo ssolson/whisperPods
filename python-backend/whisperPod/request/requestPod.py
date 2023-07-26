@@ -22,7 +22,8 @@ def get_podcast(url, name, start_at, path="./podcast"):
     podcasts = {name:  url}
     opt = getpodcast.options(
         date_from=start_at,
-        root_dir=path
+        root_dir=path,
+        template="{rootdir}/{podcast}/{title}{ext}"
         )
 
     getpodcast.getpodcast(podcasts, opt)

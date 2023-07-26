@@ -9,23 +9,26 @@ directory and its subdirectories.
 import os
 import fnmatch
 
+
 def find_mp3_files(path, recursive=True):
     """
     Searches for MP3 files in the specified directory and its subdirectories.
-    
+
     Parameters
     ----------
     path : str
         The root directory to search for MP3 files.
-    
+    recursive : bool
+        Whether to search subdirectories of the root directory.
+
     recursive : bool, default=True
         Whether to search recursively in subdirectories.
-    
+
     Returns
     -------
     list of str
         A list of file paths to all MP3 files found.
-    
+
     Example
     -------
     >>> find_mp3_files("/path/to/music/library")
@@ -39,7 +42,7 @@ def find_mp3_files(path, recursive=True):
                 mp3_files.append(os.path.join(root, filename))
     else:
         for filename in os.listdir(path):
-            if fnmatch.fnmatch(filename, "*.mp3"):
+            if filename.endswith(".mp3"):
                 mp3_files.append(os.path.join(path, filename))
 
     return mp3_files
@@ -61,7 +64,7 @@ def combine_metadata(podcast_metadata, yt_metadata):
                 combined_metadata.append(combined_item)
                 matched = True
                 break
-        
+
         if not matched:
             unmatched_metadata.append(podcast_item)
 
