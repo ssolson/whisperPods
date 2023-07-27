@@ -40,7 +40,7 @@ export default function EpisodePage({
 
       <div>
         <h1>{data.episode_number}</h1>
-        <h2>{data.item_title}</h2>
+        <h2>{data.episode_title}</h2>
         <h3>{data.release_date}</h3>
 
         {data.episode_data &&
