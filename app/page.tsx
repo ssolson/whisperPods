@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [data, setData] = useState(null);
@@ -7,7 +8,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       const episodeNumber = 624;
-      const res = await fetch(`/api/episode?episode_number=${episodeNumber}`);
+      const res = await fetch(`/api/all-episodes`);
       const json = await res.json();
       setData(json["data"]);
     };
@@ -35,17 +36,23 @@ export default function Home() {
 
   return (
     <div>
-      <h1>{data.episode_number}</h1>
-      <h2>{data.item_title}</h2>
-      <h3>{data.release_date}</h3>
+      <h1>All Episodes</h1>
+      {data.map((episode, index) => (
+        <div key={index} style={{ marginBottom: "20px" }}>
+          <p> {episode.release_date}</p>
 
-      {data.episode_data &&
-        data.episode_data.map((item, index) => (
-          <div key={index} style={{ marginBottom: "20px" }}>
-            <h1>{item.story} </h1>
-            <p>{item.summary}</p>
-          </div>
-        ))}
+          <h2>
+            <Link
+              style={{ color: "blue" }}
+              href={`/episode/${episode.episode_number}`}
+            >
+              {episode.episode_number}
+            </Link>
+            {" - "}
+            {episode.episode_title}
+          </h2>
+        </div>
+      ))}
     </div>
   );
 }
