@@ -6,7 +6,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const episodeNumber = 624; // replace with the actual episode number
+      const episodeNumber = 624;
       const res = await fetch(`/api/episode?episode_number=${episodeNumber}`);
       const json = await res.json();
       setData(json["data"]);

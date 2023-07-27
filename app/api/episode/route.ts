@@ -7,15 +7,8 @@ export async function GET(req: NextRequest) {
     const { client, db } = await getClientAndDb();
     const collection = db.collection("thedailygweiRecap");
 
-    // Get x-invoke-query header and decode it
-    const queryStr = decodeURIComponent(
-      req.headers.get("x-invoke-query") || ""
-    );
-
-    // Parse the decoded string as JSON
-    const queryObj = JSON.parse(queryStr);
-    // Extract episode_number from the parsed JSON and remove extra quotes
-    const episodeNumberStr = queryObj["episode_number"].replace(/"/g, "");
+    // Get episode Number
+    const episodeNumberStr = req.nextUrl.searchParams.get("episode_number");
     const episodeNumberInt = parseInt(episodeNumberStr, 10);
 
     // Fetch data from the collection based on episode number
