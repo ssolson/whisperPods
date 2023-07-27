@@ -8,7 +8,6 @@ export default function Home() {
     const fetchData = async () => {
       const episodeNumber = 624; // replace with the actual episode number
       const res = await fetch(`/api/episode?episode_number=${episodeNumber}`);
-      // const res = await fetch(`/api/episode?episode_number="624"`);
       const json = await res.json();
       setData(json["data"]);
     };
@@ -31,8 +30,8 @@ export default function Home() {
     );
   }
 
-  console.log(data);
-  console.log(data.episode_number);
+  // console.log(data);
+  // console.log(data.episode_number);
 
   return (
     <div>
@@ -47,13 +46,6 @@ export default function Home() {
             <p>{item.summary}</p>
           </div>
         ))}
-      <button
-        onClick={() => {
-          console.log("hello");
-        }}
-      >
-        Reload
-      </button>
     </div>
   );
 }
