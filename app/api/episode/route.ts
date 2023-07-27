@@ -1,17 +1,27 @@
 import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 import { getClientAndDb } from "../mongo/db";
 
-export async function GET(req) {
+export async function GET(req: NextRequest) {
   try {
     const { client, db } = await getClientAndDb();
     const collection = db.collection("thedailygweiRecap");
 
-    // Get query parameters for filtering (e.g., req.query.id)
-    const query = req.query || {};
-    console.log(query);
+    // Get x-invoke-query header and decode it
+    const queryStr = decodeURIComponent(
+      req.headers.get("x-invoke-query") || ""
+    );
 
-    // Fetch data from the collection based on query parameters
-    const data = await collection.findOne(query);
+    // Parse the decoded string as JSON
+    const queryObj = JSON.parse(queryStr);
+    // Extract episode_number from the parsed JSON and remove extra quotes
+    const episodeNumberStr = queryObj["episode_number"].replace(/"/g, "");
+    const episodeNumberInt = parseInt(episodeNumberStr, 10);
+
+    // Fetch data from the collection based on episode number
+    const data = await collection.findOne({
+      episode_number: episodeNumberInt,
+    });
 
     if (!data) {
       // If no data was found, return a 404 Not Found response

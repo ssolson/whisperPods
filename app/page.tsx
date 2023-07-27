@@ -6,16 +6,54 @@ export default function Home() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("/api/data");
+      const episodeNumber = 624; // replace with the actual episode number
+      const res = await fetch(`/api/episode?episode_number=${episodeNumber}`);
+      // const res = await fetch(`/api/episode?episode_number="624"`);
       const json = await res.json();
-      setData(json);
+      setData(json["data"]);
     };
     fetchData();
   }, []);
 
   if (!data) {
-    return <div>Loading...</div>;
+    return (
+      <div>
+        Loading... <br />
+        <button
+          onClick={async () => {
+            const res = await fetch(`/api/episode?episode_number="624"}`);
+            console.log(res);
+          }}
+        >
+          Reload
+        </button>
+      </div>
+    );
   }
 
-  return <h1>{data.yt_title}</h1>;
+  console.log(data);
+  console.log(data.episode_number);
+
+  return (
+    <div>
+      <h1>{data.episode_number}</h1>
+      <h2>{data.item_title}</h2>
+      <h3>{data.release_date}</h3>
+
+      {data.episode_data &&
+        data.episode_data.map((item, index) => (
+          <div key={index} style={{ marginBottom: "20px" }}>
+            <h1>{item.story} </h1>
+            <p>{item.summary}</p>
+          </div>
+        ))}
+      <button
+        onClick={() => {
+          console.log("hello");
+        }}
+      >
+        Reload
+      </button>
+    </div>
+  );
 }
